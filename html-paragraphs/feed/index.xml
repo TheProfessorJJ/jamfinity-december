@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	 xmlns:media="http://search.yahoo.com/mrss/" 
+	>
+<channel>
+	<title>
+	Comments on: HTML Paragraphs	</title>
+	<atom:link href="https://www.jamfinity.com/html-paragraphs/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.jamfinity.com/html-paragraphs/</link>
+	<description>Discover infinite possibilities!</description>
+	<lastBuildDate>Thu, 07 Oct 2021 08:02:26 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.2</generator>
+	<item>
+		<title>
+		By: Babli Kumari		</title>
+		<link>https://www.jamfinity.com/html-paragraphs/#comment-30</link>
+
+		<dc:creator><![CDATA[Babli Kumari]]></dc:creator>
+		<pubDate>Thu, 01 Jul 2021 23:54:27 +0000</pubDate>
+		<guid isPermaLink="false">https://www.jamfinity.com/?p=880#comment-30</guid>
+
+					<description><![CDATA[Hard working keep it up]]></description>
+			<content:encoded><![CDATA[<p>Hard working keep it up</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

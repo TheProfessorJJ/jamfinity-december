@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:media="http://search.yahoo.com/mrss/" >
+
+<channel>
+	<title>Featured &#8211; Jamfinity &#8211; For Creators</title>
+	<atom:link href="https://www.jamfinity.com/product-category/featured/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.jamfinity.com/</link>
+	<description>Discover infinite possibilities!</description>
+	<lastBuildDate>Tue, 08 Jun 2021 11:56:46 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.2</generator>
+
+<image>
+	<url>https://www.jamfinity.com/wp-content/uploads/2021/06/Icon-1-65x65.jpg</url>
+	<title>Featured &#8211; Jamfinity &#8211; For Creators</title>
+	<link>https://www.jamfinity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Aura &#8211; Vol. 01 &#8211; Sample Pack</title>
+		<link>https://www.jamfinity.com/product/aura-vol-01-sample-pack/</link>
+		
+		<dc:creator><![CDATA[Jamil]]></dc:creator>
+		<pubDate>Thu, 03 Jun 2021 09:14:51 +0000</pubDate>
+				<guid isPermaLink="false">https://www.jamfinity.com/?post_type=product&#038;p=1835</guid>
+
+					<description><![CDATA[<strong>Aura - Vol. 01</strong> is completely focused on melodies for making Versatile Music. From <strong>Hip-hop</strong> Drum beats to<strong> Rock</strong> - Aura gives you carefully curated loops to make hit songs.
+
+Drum loops in Aura resemble strong drops that you hear in modern Hip-hop tracks. Not only Hip-hop beats, you will also find Pop &#38; Rock drums. Moreover, Aura has guitar loops for you Lo-Fi tracks.
+
+Guitar Loops include Rhythms, Plucking &#38; Solo Licks.
+<p class="bold-txt">Melody styles included:</p>
+
+<ul>
+ 	<li>Hip-hop, pop, Rock, Various, World</li>
+</ul>
+<p class="bold-txt">Licensing rights included with purchase:</p>
+
+<ul>
+ 	<li>All melodies are 100% royalty-free</li>
+</ul>]]></description>
+										<content:encoded><![CDATA[<p><strong>Aura &#8211; Vol. 01</strong> is completely focused on melodies for making Versatile Music. From <strong>Hip-hop</strong> Drum beats to<strong> Rock</strong> &#8211; Aura gives you carefully curated loops to make hit songs.</p>
+<p>Drum loops in Aura resemble strong drops that you hear in modern Hip-hop tracks. Not only Hip-hop beats, you will also find Pop &amp; Rock drums. Moreover, Aura has guitar loops for you Lo-Fi tracks.</p>
+<p>Guitar Loops include Rhythms, Plucking &amp; Solo Licks.</p>
+<p class="bold-txt">Melody styles included:</p>
+<ul>
+<li>Hip-hop, pop, Rock, Various, World</li>
+</ul>
+<p class="bold-txt">Licensing rights included with purchase:</p>
+<ul>
+<li>All melodies are 100% royalty-free</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Create Local WordPress Practice Site &#038; Host it on Github</title>
+		<link>https://www.jamfinity.com/product/create-local-wordpress-practice-site-host-it-on-github/</link>
+		
+		<dc:creator><![CDATA[Jamil]]></dc:creator>
+		<pubDate>Tue, 01 Jun 2021 12:42:13 +0000</pubDate>
+				<guid isPermaLink="false">https://www.jamfinity.com/?post_type=product&#038;p=1666</guid>
+
+					<description><![CDATA[<pre class=" language-php">[tutor_course id="1665"]</pre>]]></description>
+										<content:encoded><![CDATA[<p data-pm-slice="1 1 []"><strong>Welcome to our WordPress beginner tutorial! This course is for students who want to use Practice WordPress on their computer. Students will learn how to set up a local WordPress environment using Bitnami &amp; deploy their locally created wordpress site on Github for free. </strong></p>
+<p>This course will also teaches how to <strong>optimize a WordPress site</strong>, <strong>Create Pages &amp; posts using Elementor Page builder</strong>, Use the Customizer to change typography, <strong>color palette </strong>of the theme,<strong> edit header &amp; footer</strong>, and <strong><em>create a logo</em></strong> for their site for free.</p>
+<p>This course is friendly for newbies who are completely new to WordPress. Along the course, there are multiple sections that teaches basic usage of the theme customizer in WordPress, how one can change the Typography, heading styles of the website all at once globally. Moreover, this course focuses on elementor page builder for the page &amp; post building sections. Students will learn how they can use the Elementor Page builder to edit &amp; build blocks however they want.</p>
+<p>This course also includes a 19 min long follow along Elementor Page building video, you can sit back and watch me create a Front Page from scratch.</p>
+<p><strong>Students will also learn how to convert the WordPress site to a static site, then host the static site on the Github repository. Lastly, Students will be shown how to create multiple WordPress sites on their local computer.</strong></p>
+<p>Many people wants to showcase their porfolios on web pages. But to do that, most people have the conception of having to buy a web host. But, you can do that with Github for free. I will show you how you can use WordPress plugins to convert your site to a static site. Static sites can be displayed on Github. Therefore,  deploying the HTML codes onto Github pages will allow you to access your site through a unique URL provided by Github.</p>
+<p><strong>This course is recommend for students who wants to increase their WordPress Webpage building skills &amp; showcase their portolios on a webpage.</strong></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

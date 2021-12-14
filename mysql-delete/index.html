@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://www.jamfinity.com/xmlrpc.php">
+
+<title>MySQL Delete - Jamfinity - For Creators</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%20Mono%3A400%2C500%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap">
+<link rel="stylesheet" href="https://www.jamfinity.com/wp-content/cache/min/1/e34c2e6cc78f2da937849ec40623ce71.css" media="all" data-minify="1">
+<meta name="description" content="The DELETE FROM statement is used to delete one or more rows from an existing table in a database.">
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://www.jamfinity.com/mysql-delete/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MySQL Delete - Jamfinity - For Creators">
+<meta property="og:description" content="The DELETE FROM statement is used to delete one or more rows from an existing table in a database.">
+<meta property="og:url" content="https://www.jamfinity.com/mysql-delete/">
+<meta property="og:site_name" content="Jamfinity - For Creators">
+<meta property="article:tag" content="Basic MySQL">
+<meta property="article:tag" content="Basic SQL">
+<meta property="article:tag" content="Coding Language">
+<meta property="article:tag" content="MySQL">
+<meta property="article:tag" content="MySQL Coding Lanuage">
+<meta property="article:tag" content="MySQL Tutorial">
+<meta property="article:section" content="Basic MySQL">
+<meta property="og:updated_time" content="2021-10-07T14:14:12+06:00">
+<meta property="og:image" content="https://www.jamfinity.com/wp-content/uploads/2021/06/4.png">
+<meta property="og:image:secure_url" content="https://www.jamfinity.com/wp-content/uploads/2021/06/4.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="628">
+<meta property="og:image:alt" content="MySQL DELETE">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MySQL Delete - Jamfinity - For Creators">
+<meta name="twitter:description" content="The DELETE FROM statement is used to delete one or more rows from an existing table in a database.">
+<meta name="twitter:image" content="https://www.jamfinity.com/wp-content/uploads/2021/06/4.png">
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":["EducationalOrganization","Organization"],"@id":"https://www.jamfinity.com/#organization","name":"Jamfinity","url":"https://www.jamfinity.com","logo":{"@type":"ImageObject","@id":"https://www.jamfinity.com/#logo","url":"https://www.jamfinity.com/wp-content/uploads/2021/05/Icon-1-1.png","caption":"Jamfinity","inLanguage":"en","width":"270","height":"187"}},{"@type":"WebSite","@id":"https://www.jamfinity.com/#website","url":"https://www.jamfinity.com","name":"Jamfinity","publisher":{"@id":"https://www.jamfinity.com/#organization"},"inLanguage":"en"},{"@type":"ImageObject","@id":"https://www.jamfinity.com/wp-content/uploads/2021/06/4.png","url":"https://www.jamfinity.com/wp-content/uploads/2021/06/4.png","width":"1200","height":"628","inLanguage":"en"},{"@type":"Person","@id":"https://www.jamfinity.com/author/admin/","name":"Jamil","url":"https://www.jamfinity.com/author/admin/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/e4ea2eac80dc1368e3bb9642ae294125?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/e4ea2eac80dc1368e3bb9642ae294125?s=96&amp;d=mm&amp;r=g","caption":"Jamil","inLanguage":"en"},"sameAs":["https://www.jamfinity.com"],"worksFor":{"@id":"https://www.jamfinity.com/#organization"}},{"@type":"WebPage","@id":"https://www.jamfinity.com/mysql-delete/#webpage","url":"https://www.jamfinity.com/mysql-delete/","name":"MySQL Delete - Jamfinity - For Creators","datePublished":"2021-05-23T18:59:21+06:00","dateModified":"2021-10-07T14:14:12+06:00","author":{"@id":"https://www.jamfinity.com/author/admin/"},"isPartOf":{"@id":"https://www.jamfinity.com/#website"},"primaryImageOfPage":{"@id":"https://www.jamfinity.com/wp-content/uploads/2021/06/4.png"},"inLanguage":"en"},{"@type":"BlogPosting","headline":"MySQL Delete - Jamfinity - For Creators","datePublished":"2021-05-23T18:59:21+06:00","dateModified":"2021-10-07T14:14:12+06:00","author":{"@type":"Person","name":"Jamil"},"publisher":{"@id":"https://www.jamfinity.com/#organization"},"description":"The DELETE FROM statement is used to delete one or more rows from an existing table in a database.","name":"MySQL Delete - Jamfinity - For Creators","@id":"https://www.jamfinity.com/mysql-delete/#richSnippet","isPartOf":{"@id":"https://www.jamfinity.com/mysql-delete/#webpage"},"image":{"@id":"https://www.jamfinity.com/wp-content/uploads/2021/06/4.png"},"inLanguage":"en","mainEntityOfPage":{"@id":"https://www.jamfinity.com/mysql-delete/#webpage"}}]}</script>
+
+<link rel="dns-prefetch" href="//www.google.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+<link href="https://fonts.gstatic.com/" crossorigin rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="Jamfinity - For Creators &raquo; Feed" href="https://www.jamfinity.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Jamfinity - For Creators &raquo; Comments Feed" href="https://www.jamfinity.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Jamfinity - For Creators &raquo; MySQL Delete Comments Feed" href="https://www.jamfinity.com/mysql-delete/feed/">
+<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style>
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.3.0" type="text/css" media="only screen and (max-width: 768px)">
+<style id="woocommerce-inline-inline-css" type="text/css">.woocommerce form .form-row .required { visibility: visible; }</style>
+<style id="wpdiscuz-frontend-css-inline-css" type="text/css">#wpdcom .wpd-blog-editor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-editor .wpd-comment-author, #wpdcom .wpd-blog-editor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-editor{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-editor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-editor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-author .wpd-comment-author, #wpdcom .wpd-blog-author .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-contributor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-contributor .wpd-comment-author, #wpdcom .wpd-blog-contributor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-contributor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-contributor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-subscriber .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-subscriber .wpd-comment-author, #wpdcom .wpd-blog-subscriber .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-subscriber .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-subscriber .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom .wpd-blog-customer .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-customer .wpd-comment-author, #wpdcom .wpd-blog-customer .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-customer .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-customer .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-customer .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-customer .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-shop_manager .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-shop_manager .wpd-comment-author, #wpdcom .wpd-blog-shop_manager .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-shop_manager .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-shop_manager .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-shop_manager .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-shop_manager .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-tutor_instructor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-tutor_instructor .wpd-comment-author, #wpdcom .wpd-blog-tutor_instructor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-tutor_instructor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-tutor_instructor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-tutor_instructor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-tutor_instructor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-post_author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-post_author .wpd-comment-author, #wpdcom .wpd-blog-post_author .wpd-comment-author a{color:#00B38F}#wpdcom .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-post_author{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-post_author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-post_author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-guest .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-guest .wpd-comment-author, #wpdcom .wpd-blog-guest .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-guest .wpd-comment-subheader{border-top:1px dashed #00B38F}#comments, #respond, .comments-area, #wpdcom{}#wpdcom .ql-editor > *{color:#777777}#wpdcom .ql-editor::before{}#wpdcom .ql-toolbar{border:1px solid #DDDDDD;border-top:none}#wpdcom .ql-container{border:1px solid #DDDDDD;border-bottom:none}#wpdcom .wpd-form-row .wpdiscuz-item input[type="text"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="email"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="url"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="color"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="date"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime-local"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="month"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="number"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="time"], #wpdcom textarea, #wpdcom select{border:1px solid #DDDDDD;color:#777777}#wpdcom .wpd-form-row .wpdiscuz-item textarea{border:1px solid #DDDDDD}#wpdcom input::placeholder, #wpdcom textarea::placeholder, #wpdcom input::-moz-placeholder, #wpdcom textarea::-webkit-input-placeholder{}#wpdcom .wpd-comment-text{color:#777777}#wpdcom .wpd-thread-head .wpd-thread-info{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpd-thread-info.wpd-reviews-tab svg{fill:#00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings:hover{color:#00B38F}#wpdcom .wpd-comment .wpd-follow-link:hover{color:#00B38F}#wpdcom .wpd-comment-status .wpd-sticky{color:#00B38F}#wpdcom .wpd-thread-filter .wpdf-active{color:#00B38F;border-bottom-color:#00B38F}#wpdcom .wpd-comment-info-bar{border:1px dashed #33c3a6;background:#e6f8f4}#wpdcom .wpd-comment-info-bar .wpd-current-view i{color:#00B38F}#wpdcom .wpd-filter-view-all:hover{background:#00B38F}#wpdcom .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}#wpdcom .wpdiscuz-item .wpdiscuz-rating:not(:checked) > label:hover, .wpdiscuz-rating:not(:checked) > label:hover ~ label{}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label{color:#FFED85}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > label:hover ~ input:checked ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked + label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover ~ label, .wpd-custom-field .wcf-active-star, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label{color:#FFD700}#wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}#wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}#wpd-post-rating .wpd-rating-wrap .wpd-rate-starts svg .wpd-star{fill:#DDDDDD}#wpd-post-rating .wpd-rating-wrap .wpd-rate-starts:hover svg .wpd-star{fill:#FFED85}#wpd-post-rating.wpd-not-rated .wpd-rating-wrap .wpd-rate-starts svg:hover ~ svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}#wpdcom .wpd-comment .wpd-follow-active{color:#ff7a00}#wpdcom .page-numbers{color:#555;border:#555 1px solid}#wpdcom span.current{background:#555}#wpdcom.wpd-layout-1 .wpd-new-loaded-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap > .wpd-comment-right{background:transparent}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap{background:#FFFAD6}#wpdcom.wpd-layout-3 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom .wpd-follow:hover i, #wpdcom .wpd-unfollow:hover i, #wpdcom .wpd-comment .wpd-follow-active:hover i{color:#00B38F}#wpdcom .wpdiscuz-readmore{cursor:pointer;color:#00B38F}.wpd-custom-field .wcf-pasiv-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}.wpd-wrapper .wpd-list-item.wpd-active{border-top:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-wrap{border-left:3px solid #FFFAD6}#wpdcom.wpd-layout-3 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-right{border-left:1px solid #FFFAD6}#wpdcom .wpd-prim-button{background-color:#07B290;color:#FFFFFF}#wpdcom .wpd_label__check i.wpdicon-on{color:#07B290;border:1px solid #83d9c8}#wpd-bubble-wrapper #wpd-bubble-all-comments-count{color:#1DB99A}#wpd-bubble-wrapper > div{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}#wpd-bubble-wrapper.wpd-right-corner > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}.wpd-inline-icon-wrapper path.wpd-inline-icon-first{fill:#1DB99A}.wpd-inline-icon-count{background-color:#1DB99A}.wpd-inline-icon-count::before{border-right-color:#1DB99A}.wpd-inline-form-wrapper::before{border-bottom-color:#1DB99A}.wpd-inline-form-question{background-color:#1DB99A}.wpd-inline-form{background-color:#1DB99A}.wpd-last-inline-comments-wrapper{border-color:#1DB99A}.wpd-last-inline-comments-wrapper::before{border-bottom-color:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments{background:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:hover,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:active,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:focus{background-color:#1DB99A}#wpdcom .ql-snow .ql-tooltip[data-mode="link"]::before{content:"Enter link:"}#wpdcom .ql-snow .ql-tooltip.ql-editing a.ql-action::after{content:"Save"}.comments-area{width:auto}</style>
+<style id="elementor-icons-inline-css" type="text/css">.elementor-add-new-section .elementor-add-templately-promo-button{
+            background-color: #5d4fff;
+            background-image: url(https://www.jamfinity.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-left: 5px;
+            position: relative;
+            bottom: 5px;
+        }</style>
+<style id="elementor-frontend-inline-css" type="text/css">@font-face{font-family:eicons;src:url(https://www.jamfinity.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);src:url(https://www.jamfinity.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(https://www.jamfinity.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(https://www.jamfinity.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(https://www.jamfinity.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(https://www.jamfinity.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}</style>
+<style id="neve-style-inline-css" type="text/css">.nv-meta-list li.meta:not(:last-child):after { content:"-" }
+.nv-meta-list li:not(:last-child):after,.nv-meta-list span:not(:last-child):after { content:"/" }
+ :root{ --container: 748px;--postWidth:100%; --primaryBtnBg: var(--nv-primary-accent); --primaryBtnHoverBg: var(--nv-primary-accent); --primaryBtnColor: #ffffff; --secondaryBtnColor: var(--nv-primary-accent); --primaryBtnHoverColor: #ffffff; --secondaryBtnHoverColor: var(--nv-primary-accent);--primaryBtnBorderRadius:3px;--secondaryBtnBorderRadius:3px;--secondaryBtnBorderWidth:3px;--btnPadding:13px 15px;--primaryBtnPadding:13px 15px;--secondaryBtnPadding:10px 12px; --bodyFontFamily: "Arial", "Helvetica", sans-serif; --bodyFontSize: 15px; --bodyLineHeight: 1.6; --bodyLetterSpacing: 0px; --bodyFontWeight: 400; --h1FontSize: 36px; --h1FontWeight: 700; --h1LineHeight: 1.2; --h1LetterSpacing: 0; --h1TextTransform: none; --h2FontSize: 28px; --h2FontWeight: 700; --h2LineHeight: 1.3; --h2LetterSpacing: 0; --h2TextTransform: none; --h3FontSize: 24px; --h3FontWeight: 700; --h3LineHeight: 1.4; --h3LetterSpacing: 0; --h3TextTransform: none; --h4FontSize: 20px; --h4FontWeight: 700; --h4LineHeight: 1.6; --h4LetterSpacing: 0; --h4TextTransform: none; --h5FontSize: 16px; --h5FontWeight: 700; --h5LineHeight: 1.6; --h5LetterSpacing: 0; --h5TextTransform: none; --h6FontSize: 14px; --h6FontWeight: 700; --h6LineHeight: 1.6; --h6LetterSpacing: 0; --h6TextTransform: none;--formFieldBorderWidth:2px;--formFieldBorderRadius:3px; --formFieldBgColor: var(--nv-site-bg); --formFieldBorderColor: #dddddd; --formFieldColor: var(--nv-text-color);--formFieldPadding:10px 12px; } .alignfull > [class*="__inner-container"], .alignwide > [class*="__inner-container"]{ max-width:718px;margin:auto } .nv-meta-list{ --avatarSize: 20px; } .single .nv-meta-list{ --avatarSize: 20px; } .nv-post-cover{ --height: 400px;--padding:40px 15px; --vAlign: center; } .nv-is-boxed.nv-title-meta-wrap{ --padding:40px 15px; --bgColor: #000000; } .nv-overlay{ --bgColor: #000000; --blendMode: normal; --opacity: 65; } .nv-is-boxed.nv-comments-wrap{ --padding:20px; } .nv-is-boxed.comment-respond{ --padding:20px; } .nv-single-post-wrap{ --spacing: 60px; } .header-top{ --color: var(--nv-text-color); --bgColor: #000000; } .header-main{ --color: var(--nv-text-color); } .header-bottom{ --color: var(--nv-text-color); --bgColor: #000000; } .header-menu-sidebar-bg{ --color: var(--nv-text-color); --bgColor: var(--nv-site-bg); } .header-menu-sidebar{ width: 360px; } .is-menu-sidebar > .wrapper{ left: 360px; } .builder-item--logo{ --maxWidth: 120px; --color: #0015ff;--padding:10px 0;--margin:0; } .builder-item--nav-icon,.header-menu-sidebar .close-sidebar-panel .navbar-toggle{ --bgColor: #0558d2; --color: #ffffff;--borderRadius:0;--borderWidth:0; } .builder-item--nav-icon{ --padding:10px 15px;--margin:0; } .builder-item--primary-menu{ --color: #000000; --hoverColor: var(--nv-secondary-accent); --activeColor: #ff0000; --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontFamily: "Roboto Mono"; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --fontWeight: 500; --textTransform: none; --iconSize: 1em; } .builder-item--header_search_responsive{ --iconSize: 15px; --formFieldFontSize: 14px;--formFieldBorderWidth:2px;--formFieldBorderRadius:2px; --height: 40px;--padding:0 10px;--margin:0; } .builder-item--secondary-menu{ --hoverColor: #003d99; --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontFamily: "Roboto Mono"; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --fontWeight: 500; --textTransform: none; --iconSize: 1em; } .builder-item--header_search_2{ --height: 40px; --formFieldFontSize: 14px;--formFieldBorderWidth:2px;--formFieldBorderRadius:2px; --formFieldBorderColor: #000000; --formFieldColor: #000000;--padding:0;--margin:0; } .footer-top-inner .row{ grid-template-columns:1fr 1fr 1fr; } .footer-top{ --color: var(--nv-text-color); --bgColor: var(--nv-site-bg); } .footer-main-inner .row{ grid-template-columns:1fr 1fr 1fr; } .footer-main{ --color: var(--nv-text-color); --bgColor: var(--nv-site-bg); } .footer-bottom-inner .row{ grid-template-columns:1fr 3fr 1fr; } .footer-bottom{ --color: var(--nv-text-dark-bg); --bgColor: var(--nv-dark-bg); } .builder-item--footer-menu{ --hoverColor: var(--nv-primary-accent); --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --fontWeight: 500; --textTransform: none; --iconSize: 1em; } .page_header-top{ --color: var(--nv-text-color); --bgColor: var(--nv-site-bg); } .page_header-bottom{ --color: var(--nv-text-color); --bgColor: var(--nv-site-bg); } .nv-meta-list .meta.author .photo{ height: 20px;width: 20px; } .scroll-to-top{ color: var(--nv-text-dark-bg);padding:8px 10px 8px 10px;border-radius:3px;background-color: var(--nv-primary-accent); } .scroll-to-top:hover, .scroll-to-top:focus{ color: var(--nv-text-dark-bg);background-color: var(--nv-primary-accent); } .scroll-to-top.icon .scroll-to-top-icon{ width:16px;height:16px; } @media(min-width: 576px){ :root{ --container: 992px;--postWidth:50%;--btnPadding:13px 15px;--primaryBtnPadding:13px 15px;--secondaryBtnPadding:10px 12px; --bodyFontSize: 16px; --bodyLineHeight: 1.6; --bodyLetterSpacing: 0px; --h1FontSize: 38px; --h1LineHeight: 1.2; --h1LetterSpacing: 0; --h2FontSize: 30px; --h2LineHeight: 1.2; --h2LetterSpacing: 0; --h3FontSize: 26px; --h3LineHeight: 1.4; --h3LetterSpacing: 0; --h4FontSize: 22px; --h4LineHeight: 1.5; --h4LetterSpacing: 0; --h5FontSize: 18px; --h5LineHeight: 1.6; --h5LetterSpacing: 0; --h6FontSize: 14px; --h6LineHeight: 1.6; --h6LetterSpacing: 0; } .nv-meta-list{ --avatarSize: 20px; } .single .nv-meta-list{ --avatarSize: 20px; } .nv-post-cover{ --height: 234px;--padding:0 30px 60px 30px;; --vAlign: center; } .nv-is-boxed.nv-title-meta-wrap{ --padding:0 30px 18px 30px;; } .nv-is-boxed.nv-comments-wrap{ --padding:30px; } .nv-is-boxed.comment-respond{ --padding:30px; } .nv-single-post-wrap{ --spacing: 60px; } .header-menu-sidebar{ width: 360px; } .is-menu-sidebar > .wrapper{ left: 360px; } .builder-item--logo{ --maxWidth: 86px;--padding:10px 0;--margin:0; } .builder-item--nav-icon{ --padding:10px 15px;--margin:0; } .builder-item--primary-menu{ --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --iconSize: 1em; } .builder-item--header_search_responsive{ --formFieldFontSize: 14px;--formFieldBorderWidth:2px;--formFieldBorderRadius:2px; --height: 40px;--padding:0 10px;--margin:0; } .builder-item--secondary-menu{ --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --iconSize: 1em; } .builder-item--header_search_2{ --height: 40px; --formFieldFontSize: 14px;--formFieldBorderWidth:2px;--formFieldBorderRadius:2px;--padding:0;--margin:0; } .builder-item--footer-menu{ --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --iconSize: 1em; } .nv-meta-list .meta.author .photo{ height: 20px;width: 20px; } .scroll-to-top{ padding:8px 10px 8px 10px; } .scroll-to-top.icon .scroll-to-top-icon{ width:16px;height:16px; } }@media(min-width: 960px){ :root{ --container: 1615px;--postWidth:33.333333333333%;--btnPadding:13px 15px;--primaryBtnPadding:13px 15px;--secondaryBtnPadding:10px 12px; --bodyFontSize: 16px; --bodyLineHeight: 1.7; --bodyLetterSpacing: 0px; --h1FontSize: 40px; --h1LineHeight: 1.1; --h1LetterSpacing: 0; --h2FontSize: 32px; --h2LineHeight: 1.2; --h2LetterSpacing: 0; --h3FontSize: 28px; --h3LineHeight: 1.4; --h3LetterSpacing: 0; --h4FontSize: 24px; --h4LineHeight: 1.5; --h4LetterSpacing: 0; --h5FontSize: 20px; --h5LineHeight: 1.6; --h5LetterSpacing: 0; --h6FontSize: 16px; --h6LineHeight: 1.6; --h6LetterSpacing: 0; } #content .container .col, #content .container-fluid .col{ max-width: 80%; } .alignfull > [class*="__inner-container"], .alignwide > [class*="__inner-container"]{ max-width:1262px } .container-fluid .alignfull > [class*="__inner-container"], .container-fluid .alignwide > [class*="__inner-container"]{ max-width:calc(80% + 15px) } .nv-sidebar-wrap, .nv-sidebar-wrap.shop-sidebar{ max-width: 20%; } .nv-meta-list{ --avatarSize: 20px; } .single .nv-meta-list{ --avatarSize: 20px; } .nv-post-cover{ --height: 180px;--padding:60px 40px; --vAlign: flex-end; } .nv-is-boxed.nv-title-meta-wrap{ --padding:0 40px 20px 40px;; } .nv-is-boxed.nv-comments-wrap{ --padding:0 200px; } .nv-is-boxed.comment-respond{ --padding:0 90px; } .nv-single-post-wrap{ --spacing: 49px; } .header-menu-sidebar{ width: 360px; } .is-menu-sidebar > .wrapper{ left: 360px; } .builder-item--logo{ --maxWidth: 146px;--padding:0;--margin:0; } .builder-item--nav-icon{ --padding:10px 015px 10px 15px;;--margin:0; } .builder-item--primary-menu{ --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --iconSize: 1em; } .builder-item--header_search_responsive{ --formFieldFontSize: 14px;--formFieldBorderWidth:2px;--formFieldBorderRadius:2px; --height: 40px;--padding:0 10px;--margin:0; } .builder-item--secondary-menu{ --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --iconSize: 1em; } .builder-item--header_search_2{ --height: 40px; --formFieldFontSize: 16px;--formFieldBorderWidth:1px;--formFieldBorderRadius:2px;--padding:0;--margin:0; } .builder-item--footer-menu{ --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontSize: 1em; --lineHeight: 1.6; --letterSpacing: 0px; --iconSize: 1em; } .nv-meta-list .meta.author .photo{ height: 20px;width: 20px; } .scroll-to-top{ padding:8px 10px 8px 10px; } .scroll-to-top.icon .scroll-to-top-icon{ width:16px;height:16px; } }.nv-content-wrap .elementor a:not(.button):not(.wp-block-file__button){ text-decoration: none; }.scroll-to-top {right: 20px; border: none; position: fixed; bottom: 30px; display: none; opacity: 0; visibility: hidden; transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; align-items: center; justify-content: center; z-index: 999; } .scroll-to-top.image { background-position: center; } .scroll-to-top .scroll-to-top-image { width: 100%; height: 100%; } .scroll-to-top .scroll-to-top-label { margin: 0; padding: 5px; } .scroll-to-top:hover { text-decoration: none; } .scroll-to-top.scroll-to-top-left {left: 20px; right: unset;} .scroll-to-top.scroll-show-mobile { display: flex; } @media (min-width: 960px) { .scroll-to-top { display: flex; } }:root{--nv-primary-accent:#2f5aae;--nv-secondary-accent:#aec9ff;--nv-site-bg:#ffffff;--nv-light-bg:#f4f5f7;--nv-dark-bg:#121212;--nv-text-color:#272626;--nv-text-dark-bg:#ffffff;--nv-c-1:#9463ae;--nv-c-2:#be574b;--nv-fallback-ff:Arial, Helvetica, sans-serif;}
+:root{--e-global-color-nvprimaryaccent:#2f5aae;--e-global-color-nvsecondaryaccent:#aec9ff;--e-global-color-nvsitebg:#ffffff;--e-global-color-nvlightbg:#f4f5f7;--e-global-color-nvdarkbg:#121212;--e-global-color-nvtextcolor:#272626;--e-global-color-nvtextdarkbg:#ffffff;--e-global-color-nvc1:#9463ae;--e-global-color-nvc2:#be574b;}</style>
+<style id="rocket-lazyload-inline-css" type="text/css">.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(https://www.jamfinity.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat;cursor:pointer}</style>
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}<\/div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}<\/div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}<\/div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Sorry, this product is unavailable. Please choose a different combination.<\/p>
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script type="application/json" id="wpp-json">
+{"sampling_active":0,"sampling_rate":100,"ajax_url":"https:\/\/www.jamfinity.com\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","ID":997,"token":"0c3cd068b3","lang":0,"debug":0}
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?ver=5.3.3" id="wpp-js-js"></script>
+
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-198913376-1" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["www.jamfinity.com"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "UA-198913376-1", {"anonymize_ip":true});
+</script>
+
+<link rel="https://api.w.org/" href="https://www.jamfinity.com/wp-json/">
+<link rel="alternate" type="application/json" href="https://www.jamfinity.com/wp-json/wp/v2/posts/997">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.jamfinity.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.jamfinity.com/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 5.8.2">
+<link rel="shortlink" href="https://www.jamfinity.com/?p=997">
+<link rel="alternate" type="application/json+oembed" href="https://www.jamfinity.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://www.jamfinity.com%2Fmysql-delete%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.jamfinity.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://www.jamfinity.com%2Fmysql-delete%2F&#038;format=xml">
+<meta name="generator" content="Site Kit by Google 1.42.0">
+<script data-ad-client="ca-pub-8721136696893226" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-198913376-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-198913376-1');
+</script>
+<style>@-webkit-keyframes bgslide {
+                from {
+                    background-position-x: 0;
+                }
+                to {
+                    background-position-x: -200%;
+                }
+            }
+
+            @keyframes bgslide {
+                    from {
+                        background-position-x: 0;
+                    }
+                    to {
+                        background-position-x: -200%;
+                    }
+            }
+
+            .wpp-widget-placeholder {
+                margin: 0 auto;
+                width: 60px;
+                height: 3px;
+                background: #dd3737;
+                background: -webkit-gradient(linear, left top, right top, from(#dd3737), color-stop(10%, #571313), to(#dd3737));
+                background: linear-gradient(90deg, #dd3737 0%, #571313 10%, #dd3737 100%);
+                background-size: 200% auto;
+                border-radius: 3px;
+                -webkit-animation: bgslide 1s infinite linear;
+                animation: bgslide 1s infinite linear;
+            }</style>
+<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+
+<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8721136696893226" crossorigin="anonymous" type="text/javascript"></script>
+<script type="text/javascript">
+(adsbygoogle = window.adsbygoogle || []).push({"google_ad_client":"ca-pub-8721136696893226","enable_page_level_ads":true,"tag_partner":"site_kit"});
+</script>
+
+<link rel="icon" href="https://www.jamfinity.com/wp-content/uploads/2021/06/Icon-1-65x65.jpg" sizes="32x32">
+<link rel="icon" href="https://www.jamfinity.com/wp-content/uploads/2021/06/Icon-1.jpg" sizes="192x192">
+<link rel="apple-touch-icon" href="https://www.jamfinity.com/wp-content/uploads/2021/06/Icon-1.jpg">
+<meta name="msapplication-TileImage" content="https://www.jamfinity.com/wp-content/uploads/2021/06/Icon-1.jpg">
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+</head>
+<body class="post-template-default single single-post postid-997 single-format-standard wp-custom-logo theme-neve woocommerce-no-js ehf-template-neve ehf-stylesheet-neve  nv-blog-grid nv-sidebar-right menu_sidebar_pull_left elementor-default elementor-kit-381 elementor-page elementor-page-997" id="neve_body">
+<div class="wrapper">
+<header class="header" role="banner" next-page-hide>
+<a class="neve-skip-link show-on-focus" href="#content">
+Skip to content </a>
+<div id="header-grid" class="hfg_header site-header">
+<nav class="header--row header-main hide-on-mobile hide-on-tablet layout-fullwidth nv-navbar header--row" data-row-id="main" data-show-on="desktop">
+<div class="header--row-inner header-main-inner">
+<div class="container">
+<div class="row row--wrapper" data-section="hfg_header_layout_main">
+<div class="hfg-slot left">
+<div class="builder-item desktop-left">
+<div class="item--inner builder-item--logo" data-section="title_tagline" data-item-id="logo">
+<div class="site-logo">
+<a class="brand" href="https://www.jamfinity.com/" title="Jamfinity - For Creators" aria-label="Jamfinity - For Creators"><img width="748" height="187" src="https://www.jamfinity.com/wp-content/uploads/2021/05/cropped-Logo-1.png" class="skip-lazy" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/cropped-Logo-1.png 748w, https://www.jamfinity.com/wp-content/uploads/2021/05/cropped-Logo-1-300x75.png 300w, https://www.jamfinity.com/wp-content/uploads/2021/05/cropped-Logo-1-600x150.png 600w, https://www.jamfinity.com/wp-content/uploads/2021/05/cropped-Logo-1-165x41.png 165w" sizes="(max-width: 748px) 100vw, 748px"></a>
+</div>
+</div>
+</div>
+<div class="builder-item desktop-left">
+<div class="item--inner builder-item--nav-icon" data-section="header_menu_icon" data-item-id="nav-icon">
+<div class="menu-mobile-toggle item-button navbar-toggle-wrapper">
+<button type="button" class="navbar-toggle" aria-label="
+			Navigation Menu			">
+<span class="nav-toggle-label">Explore</span> <span class="bars">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</span>
+<span class="screen-reader-text">Navigation Menu</span>
+</button>
+</div> 
+</div>
+</div>
+<div class="builder-item desktop-left">
+<div class="item--inner builder-item--header_search_2" data-section="header_search_2" data-item-id="header_search_2">
+<div class="component-wrap search-field">
+<div class="widget widget-search" style="padding: 0;margin: 8px 2px;">
+<form role="search" method="get" class="search-form" action="https://www.jamfinity.com/">
+<label>
+<span class="screen-reader-text">Search for...</span>
+</label>
+<input type="search" class="search-field" placeholder="Search topics" value="" name="s">
+<button type="submit" class="search-submit" aria-label="Search">
+<span class="nv-search-icon-wrap">
+<div role="button" class="nv-icon nv-search">
+<svg width="15" height="15" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"></path></svg>
+</div> </span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hfg-slot right single"><div class="builder-item desktop-left">
+<div class="item--inner builder-item--secondary-menu has_menu" data-section="secondary_menu_primary" data-item-id="secondary-menu">
+<div class="nv-top-bar">
+<div role="navigation" class="menu-content style-border-bottom nav-menu-secondary" aria-label="Secondary Menu">
+<ul id="secondary-menu" class="nav-ul">
+<li id="menu-item-2608" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2608"><a href="https://www.jamfinity.com/">Learn to code</a></li>
+<li id="menu-item-2154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2154"><a href="https://www.jamfinity.com/tutorials/">Learn Skills</a></li>
+<li id="menu-item-3853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3853"><a href="https://www.jamfinity.com/free-powerpoint-ppt-slides-and-google-slides-for-your-presentation/">PowerPoint Slides</a></li>
+<li id="menu-item-3021" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3021"><a href="https://blog.jamfinity.com/">Blogs</a></li>
+<li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a href="https://www.jamfinity.com/my-account/">My Account</a></li>
+</ul> </div>
+</div>
+</div>
+</div></div> </div>
+</div>
+</div>
+</nav>
+<nav class="header--row header-main hide-on-desktop layout-fullwidth nv-navbar header--row" data-row-id="main" data-show-on="mobile">
+<div class="header--row-inner header-main-inner">
+<div class="container">
+<div class="row row--wrapper" data-section="hfg_header_layout_main">
+<div class="hfg-slot left"><div class="builder-item tablet-left mobile-left hfg-is-group">
+<div class="item--inner builder-item--logo" data-section="title_tagline" data-item-id="logo">
+<div class="site-logo">
+<a class="brand" href="https://www.jamfinity.com/" title="Jamfinity - For Creators" aria-label="Jamfinity - For Creators"><img width="748" height="187" src="https://www.jamfinity.com/wp-content/uploads/2021/05/cropped-Logo-1.png" class="skip-lazy" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/cropped-Logo-1.png 748w, https://www.jamfinity.com/wp-content/uploads/2021/05/cropped-Logo-1-300x75.png 300w, https://www.jamfinity.com/wp-content/uploads/2021/05/cropped-Logo-1-600x150.png 600w, https://www.jamfinity.com/wp-content/uploads/2021/05/cropped-Logo-1-165x41.png 165w" sizes="(max-width: 748px) 100vw, 748px"></a>
+</div>
+</div>
+<div class="item--inner builder-item--header_search_responsive" data-section="header_search_responsive" data-item-id="header_search_responsive">
+<div class="nv-search-icon-component">
+<div class="menu-item-nav-search canvas">
+<a aria-label="Search" href="#" role="button" class="nv-icon nv-search">
+<svg width="15" height="15" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"></path></svg>
+</a> <div class="nv-nav-search" aria-label="search">
+<div class="form-wrap container responsive-search">
+<form role="search" method="get" class="search-form" action="https://www.jamfinity.com/">
+<label>
+<span class="screen-reader-text">Search for...</span>
+</label>
+<input type="search" class="search-field" placeholder="Search for..." value="" name="s">
+<button type="submit" class="search-submit" aria-label="Search">
+<span class="nv-search-icon-wrap">
+<div role="button" class="nv-icon nv-search">
+<svg width="15" height="15" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"></path></svg>
+</div> </span>
+</button>
+</form>
+</div>
+<div class="close-container container responsive-search">
+<button class="close-responsive-search">
+<svg width="50" height="50" viewbox="0 0 20 20" fill="#555555"><path d="M14.95 6.46L11.41 10l3.54 3.54l-1.41 1.41L10 11.42l-3.53 3.53l-1.42-1.42L8.58 10L5.05 6.47l1.42-1.42L10 8.58l3.54-3.53z"></path><rect></rect></svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<div class="hfg-slot right single"><div class="builder-item tablet-left mobile-left">
+<div class="item--inner builder-item--nav-icon" data-section="header_menu_icon" data-item-id="nav-icon">
+<div class="menu-mobile-toggle item-button navbar-toggle-wrapper">
+<button type="button" class="navbar-toggle" aria-label="
+			Navigation Menu			">
+<span class="nav-toggle-label">Explore</span> <span class="bars">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</span>
+<span class="screen-reader-text">Navigation Menu</span>
+</button>
+</div> 
+</div>
+</div></div> </div>
+</div>
+</div>
+</nav>
+<div id="header-menu-sidebar" class="header-menu-sidebar menu-sidebar-panel pull_left">
+<div id="header-menu-sidebar-bg" class="header-menu-sidebar-bg">
+<div class="close-sidebar-panel navbar-toggle-wrapper">
+<button type="button" class="navbar-toggle active" aria-label="
+					Navigation Menu				">
+<span class="bars">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</span>
+<span class="screen-reader-text">
+Navigation Menu </span>
+</button>
+</div>
+<div id="header-menu-sidebar-inner" class="header-menu-sidebar-inner ">
+<div class="builder-item has-nav">
+<div class="item--inner builder-item--primary-menu has_menu" data-section="header_menu_primary" data-item-id="primary-menu">
+<div class="nv-nav-wrap">
+<div role="navigation" class="style-full-height nav-menu-primary" aria-label="Primary Menu">
+<ul id="nv-primary-navigation-sidebar" class="primary-menu-ul nav-ul dropdowns-expanded">
+<li id="menu-item-3324" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3324">
+<a href="https://www.jamfinity.com/category/mysql/coding-language/"><span class="menu-item-title-wrap">Coding Language</span><div tabindex="0" class="caret-wrap 1"><span class="caret"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></span></div></a>
+<ul class="sub-menu">
+<li id="menu-item-3323" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3323"><a href="https://www.jamfinity.com/html-tutorial/">Basic HTML</a></li>
+<li id="menu-item-3297" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3297"><a href="https://www.jamfinity.com/basic-mysql/">Basic MySQL</a></li>
+<li id="menu-item-3298" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3298"><a href="https://www.jamfinity.com/learn-to-use-mysql-with-microsoft-database/">Learn to use MySQL using Microsoft Access</a></li>
+<li id="menu-item-3445" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3445"><a href="https://www.jamfinity.com/introduction-to-python/">Introduction to Python 3</a></li>
+</ul>
+</li>
+<li id="menu-item-3294" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3294">
+<a href="https://www.jamfinity.com/category/business/"><span class="menu-item-title-wrap">Business</span><div tabindex="0" class="caret-wrap 6"><span class="caret"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></span></div></a>
+<ul class="sub-menu">
+<li id="menu-item-3295" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3295">
+<a href="https://www.jamfinity.com/category/business/marketing/"><span class="menu-item-title-wrap">Marketing</span><div tabindex="0" class="caret-wrap 7"><span class="caret"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></span></div></a>
+<ul class="sub-menu">
+<li id="menu-item-3887" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3887"><a href="https://www.jamfinity.com/customer-relationship-groups-in-marketing/">Customer Relationship Groups in Marketing</a></li>
+</ul>
+</li>
+<li id="menu-item-3638" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3638"><a href="https://www.jamfinity.com/foundation-of-project-management/">Foundation of Project Management</a></li>
+</ul>
+</li>
+</ul> </div>
+</div>
+</div>
+</div> </div>
+</div>
+</div>
+<div class="header-menu-sidebar-overlay"></div>
+</div>
+<div id="page-header-grid" class="hfg_page_header page-header">
+</div>
+</header>
+<div data-bg="https://www.jamfinity.com/wp-content/uploads/2021/06/4.png" class="nv-post-cover rocket-lazyload">
+<div class="nv-overlay"></div>
+<div class="container  mobile-left tablet-left desktop-left"><div class="nv-title-meta-wrap nv-is-boxed">
+<small class="neve-breadcrumbs-wrapper"></small><h1 class="title entry-title">MySQL Delete</h1>
+<ul class="nv-meta-list">
+<li class="meta reading-time">1 min read</li>
+<li class="meta date posted-on">
+<time class="entry-date published" datetime="2021-05-23T18:59:21+06:00" content="2021-05-23">May 23, 2021</time><time class="updated" datetime="2021-10-07T14:14:12+06:00">October 7, 2021</time>
+</li>
+</ul>
+</div></div>
+</div>
+<main id="content" class="neve-main" role="main">
+<div class="container single-post-container">
+<div class="row">
+<article id="post-997" class="nv-single-post-wrap col post-997 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+<div class="nv-content-wrap entry-content"> <div data-elementor-type="wp-post" data-elementor-id="997" class="elementor elementor-997" data-elementor-settings="[]">
+<div class="elementor-section-wrap">
+<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-8c2ce0b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8c2ce0b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-11804a1" data-id="11804a1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-059922d" data-id="059922d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-b5e2aaf elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b5e2aaf" data-element_type="widget" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items elementor-inline-items">
+<li class="elementor-icon-list-item elementor-inline-item">
+<span class="elementor-icon-list-icon">
+<i aria-hidden="true" class="fas fa-code"></i> </span>
+<span class="elementor-icon-list-text">MySQL Delete</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-a64df52 elementor-post-navigation-borders-yes elementor-widget elementor-widget-post-navigation" data-id="a64df52" data-element_type="widget" data-widget_type="post-navigation.default">
+<div class="elementor-widget-container">
+<div class="elementor-post-navigation">
+<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+<a href="https://www.jamfinity.com/mysql-update/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span><span class="post-navigation__prev--title">MySQL Update</span></span></a> </div>
+<div class="elementor-post-navigation__separator-wrapper">
+<div class="elementor-post-navigation__separator"></div>
+</div>
+<div class="elementor-post-navigation__next elementor-post-navigation__link">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ff5cec9" data-id="ff5cec9" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-43e3638 elementor-widget elementor-widget-premium-addon-button" data-id="43e3638" data-element_type="widget" data-widget_type="premium-addon-button.default">
+<div class="elementor-widget-container">
+<div class="premium-button-container">
+<a class="premium-button premium-button-style7 premium-btn-sm premium-button-style7-bottom" href="#">
+<div class="premium-button-text-icon-wrapper">
+<i aria-hidden="true" class="fas fa-bolt"></i> <span>
+More </span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-fc79d74 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fc79d74" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-70e9d20" data-id="70e9d20" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-2bcc72c elementor-widget elementor-widget-heading" data-id="2bcc72c" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="https://www.jamfinity.com/learn-to-code">Coding</a></h4> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-be22f29" data-id="be22f29" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-30f6093 elementor-widget elementor-widget-heading" data-id="30f6093" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="https://www.jamfinity.com/html-tutorial">HTML</a></h4> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-ca1929e" data-id="ca1929e" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-f734807 elementor-widget elementor-widget-heading" data-id="f734807" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="#">WordPress</a></h4> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-254b9d9" data-id="254b9d9" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-882d655 elementor-widget elementor-widget-heading" data-id="882d655" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default"><a href="https://www.jamfinity.com/tutorials">Tutorials</a></h4> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-0d64880 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0d64880" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5a6d95f elementor-hidden-tablet elementor-hidden-phone" data-id="5a6d95f" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-b2cb613 elementor-grid-1 elementor-posts--thumbnail-none elementor-posts--align-left elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="b2cb613" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:14,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;}" data-widget_type="posts.classic">
+<div class="elementor-widget-container">
+<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+<article class="elementor-post elementor-grid-item post-968 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-coding-language category-mysql category-tutorial-front-pages tag-basic-mysql tag-coding-language tag-mysql">
+<div class="elementor-post__text">
+<h6 class="elementor-post__title">
+<a href="https://www.jamfinity.com/basic-mysql/" target="_blank">
+Basic MySQL </a>
+</h6>
+</div>
+</article>
+<article class="elementor-post elementor-grid-item post-1040 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+<div class="elementor-post__text">
+<h6 class="elementor-post__title">
+<a href="https://www.jamfinity.com/mysql-introduction/" target="_blank">
+MySQL Introduction </a>
+</h6>
+</div>
+</article>
+<article class="elementor-post elementor-grid-item post-987 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+<div class="elementor-post__text">
+<h6 class="elementor-post__title">
+<a href="https://www.jamfinity.com/mysql-create/" target="_blank">
+MySQL Create </a>
+</h6>
+</div>
+</article>
+<article class="elementor-post elementor-grid-item post-989 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+<div class="elementor-post__text">
+<h6 class="elementor-post__title">
+<a href="https://www.jamfinity.com/mysql-insert/" target="_blank">
+MySQL Insert </a>
+</h6>
+</div>
+</article>
+<article class="elementor-post elementor-grid-item post-991 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+<div class="elementor-post__text">
+<h6 class="elementor-post__title">
+<a href="https://www.jamfinity.com/mysql-select/" target="_blank">
+MySQL Select </a>
+</h6>
+</div>
+</article>
+<article class="elementor-post elementor-grid-item post-993 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+<div class="elementor-post__text">
+<h6 class="elementor-post__title">
+<a href="https://www.jamfinity.com/mysql-alter/" target="_blank">
+MySQL Alter </a>
+</h6>
+</div>
+</article>
+<article class="elementor-post elementor-grid-item post-995 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+<div class="elementor-post__text">
+<h6 class="elementor-post__title">
+<a href="https://www.jamfinity.com/mysql-update/" target="_blank">
+MySQL Update </a>
+</h6>
+</div>
+</article>
+<article class="elementor-post elementor-grid-item post-997 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+<div class="elementor-post__text">
+<h6 class="elementor-post__title">
+<a href="https://www.jamfinity.com/mysql-delete/" target="_blank">
+MySQL Delete </a>
+</h6>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-562ffe6" data-id="562ffe6" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-31b008a elementor-widget elementor-widget-heading" data-id="31b008a" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">DELETE FROM</h2> </div>
+</div>
+<div class="elementor-element elementor-element-180e243 elementor-widget elementor-widget-text-editor" data-id="180e243" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>The DELETE FROM statement is used to delete one or more rows from an existing table in a database.</p> </div>
+</div>
+<div class="elementor-element elementor-element-46f5f67 elementor-widget elementor-widget-heading" data-id="46f5f67" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">Format:</h3> </div>
+</div>
+<div class="elementor-element elementor-element-4758d6c elementor-widget elementor-widget-code-highlight" data-id="4758d6c" data-element_type="widget" data-widget_type="code-highlight.default">
+<div class="elementor-widget-container">
+<div class="prismjs-okaidia copy-to-clipboard ">
+<pre data-line="" class="highlight-height language-sql ">				<code readonly class="language-sql">
+					<xmp>DELETE FROM table_name
+WHERE row_name = "value"</xmp>
+				</code>
+			</pre>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-6bcc419 elementor-widget elementor-widget-heading" data-id="6bcc419" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">Example:</h3> </div>
+</div>
+<div class="elementor-element elementor-element-cd739d2 elementor-widget elementor-widget-text-editor" data-id="cd739d2" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>You have to delete the record of ID =1002 from a table called customer.</p>
+<p>This is what the table looks like.</p> </div>
+</div>
+<div class="elementor-element elementor-element-427e632 elementor-widget elementor-widget-image" data-id="427e632" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img width="472" height="198" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20472%20198'%3E%3C/svg%3E" class="attachment-large size-large" alt="" data-lazy-srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-5.png 472w, https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-5-300x126.png 300w" data-lazy-sizes="(max-width: 472px) 100vw, 472px" data-lazy-src="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-5.png"><noscript><img width="472" height="198" src="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-5.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-5.png 472w, https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-5-300x126.png 300w" sizes="(max-width: 472px) 100vw, 472px"></noscript> </div>
+</div>
+<div class="elementor-element elementor-element-a0db49b elementor-widget elementor-widget-text-editor" data-id="a0db49b" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>In order to do that, we have to write the following statement:</p> </div>
+</div>
+<div class="elementor-element elementor-element-e7127fb elementor-widget elementor-widget-code-highlight" data-id="e7127fb" data-element_type="widget" data-widget_type="code-highlight.default">
+<div class="elementor-widget-container">
+<div class="prismjs-okaidia copy-to-clipboard word-wrap">
+<pre data-line="" class="highlight-height language-sql ">				<code readonly class="language-sql">
+					<xmp>DELETE FROM customer
+WHERE ID = 1002;</xmp>
+				</code>
+			</pre>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-9675408 elementor-widget elementor-widget-text-editor" data-id="9675408" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Result:</p> </div>
+</div>
+<div class="elementor-element elementor-element-f945cdd elementor-widget elementor-widget-image" data-id="f945cdd" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img width="473" height="186" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20473%20186'%3E%3C/svg%3E" class="attachment-large size-large" alt="" data-lazy-srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7-1.png 473w, https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7-1-300x118.png 300w" data-lazy-sizes="(max-width: 473px) 100vw, 473px" data-lazy-src="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7-1.png"><noscript><img width="473" height="186" src="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7-1.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7-1.png 473w, https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7-1-300x118.png 300w" sizes="(max-width: 473px) 100vw, 473px"></noscript> </div>
+</div>
+<div class="elementor-element elementor-element-bcab1f6 elementor-widget elementor-widget-text-editor" data-id="bcab1f6" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>Let&#8217;s break down our statement:</p>
+<ul>
+<li>DELETE FROM is followed by the name of the table</li>
+<li>WHERE indicates the exact row you want to delete the record from.</li>
+</ul> </div>
+</div>
+<div class="elementor-element elementor-element-996c1bb elementor-widget elementor-widget-eael-creative-button" data-id="996c1bb" data-element_type="widget" data-widget_type="eael-creative-button.default">
+<div class="elementor-widget-container">
+<div class="eael-creative-button-wrapper">
+<a class="eael-creative-button eael-creative-button--default" href="https://www.jamfinity.com/learn-to-use-mysql-with-microsoft-database" data-text="Go!">
+<div class="creative-button-inner">
+<span class="eael-creative-button-icon-left"></span>
+<span class="cretive-button-text">Using MySQL with Microsoft Access</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-52cc734 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="52cc734" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e7545f9" data-id="e7545f9" data-element_type="column">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div class="nv-post-share"><ul>
+<li class="nv-social-icon social-share"><svg width="15" height="15" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1344 1024q133 0 226.5 93.5t93.5 226.5-93.5 226.5-226.5 93.5-226.5-93.5-93.5-226.5q0-12 2-34l-360-180q-92 86-218 86-133 0-226.5-93.5t-93.5-226.5 93.5-226.5 226.5-93.5q126 0 218 86l360-180q-2-22-2-34 0-133 93.5-226.5t226.5-93.5 226.5 93.5 93.5 226.5-93.5 226.5-226.5 93.5q-126 0-218-86l-360 180q2 22 2 34t-2 34l360 180q92-86 218-86z"></path></svg></li>
+<li class="nv-social-icon social-facebook"><a rel="noopener" target="_blank" title="Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.jamfinity.com%2Fmysql-delete%2F" class="facebook"><svg width="15" height="15" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"></path></svg></a></li>
+<li class="nv-social-icon social-twitter"><a rel="noopener" target="_blank" title="Twitter" href="https://twitter.com/share?url=https%3A%2F%2Fwww.jamfinity.com%2Fmysql-delete%2F&#038;text=MySQL%20Delete&#038;hashtags=Basic%20MySQL,MySQL" class="twitter"><svg width="15" height="15" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path></svg></a></li>
+<li class="nv-social-icon social-email"><a rel="noopener" target="_blank" title="Email" href="https://www.jamfinity.com/cdn-cgi/l/email-protection#0e317d7b6c646b6d7a3343775d5f422b3c3e4a6b626b7a6b282d3e3d36356c616a7733667a7a7e7d2b3d4f2b3c482b3c4879797920646f63686760677a77206d61632b3c4863777d7f62236a6b626b7a6b2b3c48" class="email"><svg width="15" height="15" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"></path></svg></a></li>
+</ul></div>
+<div class="nv-tags-list">
+<span>Tags:</span><a href="https://www.jamfinity.com/tag/basic-mysql/" title="Basic MySQL" class="basic-mysql" rel="tag">Basic MySQL</a><a href="https://www.jamfinity.com/tag/basic-sql/" title="Basic SQL" class="basic-sql" rel="tag">Basic SQL</a><a href="https://www.jamfinity.com/tag/coding-language/" title="Coding Language" class="coding-language" rel="tag">Coding Language</a><a href="https://www.jamfinity.com/tag/mysql/" title="MySQL" class="mysql" rel="tag">MySQL</a><a href="https://www.jamfinity.com/tag/mysql-coding-lanuage/" title="MySQL Coding Lanuage" class="mysql-coding-lanuage" rel="tag">MySQL Coding Lanuage</a><a href="https://www.jamfinity.com/tag/mysql-tutorial/" title="MySQL Tutorial" class="mysql-tutorial" rel="tag">MySQL Tutorial</a> </div> <div class="wpdiscuz_top_clearing"></div>
+<div id="comments" class="comments-area">
+<div id="respond" style="width: 0;height: 0;clear: both;margin: 0;padding: 0;"></div>
+<div id="wpd-post-rating" class="wpd-not-rated">
+<div class="wpd-rating-wrap">
+<div class="wpd-rating-left"></div>
+<div class="wpd-rating-data">
+<div class="wpd-rating-value">
+<span class="wpdrv">0</span>
+<span class="wpdrc">0</span>
+<span class="wpdrt">votes</span>
+</div>
+<div class="wpd-rating-title">Article Rating</div>
+<div class="wpd-rating-stars">
+<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
+</div>
+<div class="wpd-rate-starts">
+<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
+</div>
+</div>
+<div class="wpd-rating-right"></div>
+</div>
+</div> <div id="wpdcom" class="wpdiscuz_unauth wpd-default wpd-layout-1 wpd-comments-open">
+<div class="wc_social_plugin_wrapper">
+</div>
+<div class="wpd-form-wrap">
+<div class="wpd-form-head">
+<div class="wpd-sbs-toggle">
+<i class="far fa-envelope"></i> <span class="wpd-sbs-title">Subscribe</span> <i class="fas fa-caret-down"></i>
+</div>
+<div class="wpd-auth">
+<div class="wpd-login">
+<a rel="nofollow" href="https://www.jamfinity.com/wp-login.php?redirect_to=https%3A%2F%2Fhttps://www.jamfinity.com%2Fmysql-delete%2F"><i class="fas fa-sign-in-alt"></i> Login</a> </div>
+</div>
+</div>
+<div class="wpdiscuz-subscribe-bar wpdiscuz-hidden">
+<form action="https://www.jamfinity.com/wp-admin/admin-ajax.php?action=wpdAddSubscription" method="post" id="wpdiscuz-subscribe-form">
+<div class="wpdiscuz-subscribe-form-intro">Notify of </div>
+<div class="wpdiscuz-subscribe-form-option" style="width:40%;">
+<select class="wpdiscuz_select" name="wpdiscuzSubscriptionType">
+<option value="post">new follow-up comments</option>
+<option value="all_comment">new replies to my comments</option>
+</select>
+</div>
+<div class="wpdiscuz-item wpdiscuz-subscribe-form-email">
+<input class="email" type="email" name="wpdiscuzSubscriptionEmail" required="required" value="" placeholder="Email">
+</div>
+<div class="wpdiscuz-subscribe-form-button">
+<input id="wpdiscuz_subscription_button" class="wpd-prim-button" type="submit" value="&rsaquo;" name="wpdiscuz_subscription_button">
+</div>
+<input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="50975ea8db"><input type="hidden" name="_wp_http_referer" value="/mysql-delete/"> </form>
+</div>
+<div class="wpd-form wpd-form-wrapper wpd-main-form-wrapper" id="wpd-main-form-wrapper-0_0">
+<form class="wpd_comm_form wpd_main_comm_form" method="post" enctype="multipart/form-data">
+<div class="wpd-field-comment">
+<div class="wpdiscuz-item wc-field-textarea">
+<div class="wpdiscuz-textarea-wrap ">
+<div class="wpd-avatar">
+<img alt="guest" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2056%2056'%3E%3C/svg%3E" data-lazy-srcset="https://secure.gravatar.com/avatar/?s=112&#038;d=mm&#038;r=g 2x" class="avatar avatar-56 photo avatar-default" height="56" width="56" data-lazy-src="https://secure.gravatar.com/avatar/?s=56&#038;d=mm&#038;r=g"><noscript><img alt="guest" src="https://secure.gravatar.com/avatar/?s=56&#038;d=mm&#038;r=g" srcset="https://secure.gravatar.com/avatar/?s=112&#038;d=mm&#038;r=g 2x" class="avatar avatar-56 photo avatar-default" height="56" width="56"></noscript> </div>
+<div id="wpd-editor-wraper-0_0" style="display: none;">
+<div id="wpd-editor-char-counter-0_0" class="wpd-editor-char-counter"></div>
+<label style="display: none;" for="wc-textarea-0_0">Label</label>
+<textarea id="wc-textarea-0_0" required name="wc_comment" class="wc_comment wpd-field"></textarea>
+<div id="wpd-editor-0_0"></div>
+<div id="wpd-editor-toolbar-0_0">
+<button title="Bold" class="ql-bold"></button>
+<button title="Italic" class="ql-italic"></button>
+<button title="Underline" class="ql-underline"></button>
+<button title="Strike" class="ql-strike"></button>
+<button title="Ordered List" class="ql-list" value="ordered"></button>
+<button title="Unordered List" class="ql-list" value="bullet"></button>
+<button title="Blockquote" class="ql-blockquote"></button>
+<button title="Code Block" class="ql-code-block"></button>
+<button title="Link" class="ql-link"></button>
+<button title="Source Code" class="ql-sourcecode" data-wpde_button_name="sourcecode">{}</button>
+<button title="Spoiler" class="ql-spoiler" data-wpde_button_name="spoiler">[+]</button>
+<div class="wpd-editor-buttons-right">
+<span class="wmu-upload-wrap" wpd-tooltip="Attach an image to this comment" wpd-tooltip-position="left"><label class="wmu-add"><i class="far fa-image"></i><input style="display:none;" class="wmu-add-files" type="file" name="wmu_files[]" accept="image/*"></label></span> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpd-form-foot" style="display:none;">
+<div class="wpdiscuz-textarea-foot">
+<div class="wpdiscuz-button-actions"><div class="wmu-action-wrap"><div class="wmu-tabs wmu-images-tab wmu-hide"></div></div></div>
+</div>
+<div class="wpd-form-row">
+<div class="wpd-form-col-left">
+<div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-user"></i></div>
+<input id="wc_name-0_0" value="" required="required" aria-required="true" class="wc_name wpd-field" type="text" name="wc_name" placeholder="Name*" maxlength="50" pattern=".{3,50}" title="">
+<label for="wc_name-0_0" class="wpdlb">Name*</label>
+</div>
+<div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-at"></i></div>
+<input id="wc_email-0_0" value="" required="required" aria-required="true" class="wc_email wpd-field" type="email" name="wc_email" placeholder="Email*">
+<label for="wc_email-0_0" class="wpdlb">Email*</label>
+</div>
+<div class="wpdiscuz-item wc_website-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-link"></i></div>
+<input id="wc_website-0_0" value="" class="wc_website wpd-field" type="text" name="wc_website" placeholder="Website">
+<label for="wc_website-0_0" class="wpdlb">Website</label>
+</div>
+</div>
+<div class="wpd-form-col-right">
+<div class="wpd-field-captcha wpdiscuz-item">
+<div class="wpdiscuz-recaptcha" id="wpdiscuz-recaptcha-0_0"></div>
+<input id="wpdiscuz-recaptcha-field-0_0" type="hidden" name="wc_captcha" value="" required="required" aria-required="true" class="wpdiscuz_reset">
+<div class="clearfix"></div>
+</div>
+<div class="wc-field-submit">
+<label class="wpd_label" wpd-tooltip="Notify of new replies to this comment">
+<input id="wc_notification_new_comment-0_0" class="wc_notification_new_comment-0_0 wpd_label__checkbox" value="comment" type="checkbox" name="wpdiscuz_notification_type">
+<span class="wpd_label__text">
+<span class="wpd_label__check">
+<i class="fas fa-bell wpdicon wpdicon-on"></i>
+<i class="fas fa-bell-slash wpdicon wpdicon-off"></i>
+</span>
+</span>
+</label>
+<input id="wpd-field-submit-0_0" class="wc_comm_submit wpd_not_clicked wpd-prim-button" type="submit" name="submit" value="Post Comment">
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<input type="hidden" class="wpdiscuz_unique_id" value="0_0" name="wpdiscuz_unique_id">
+</form>
+</div>
+<div id="wpdiscuz_hidden_secondary_form" style="display: none;">
+<div class="wpd-form wpd-form-wrapper wpd-secondary-form-wrapper" id="wpd-secondary-form-wrapper-wpdiscuzuniqueid" style="display: none;">
+<div class="wpd-secondary-forms-social-content"></div>
+<div class="clearfix"></div>
+<form class="wpd_comm_form wpd-secondary-form-wrapper" method="post" enctype="multipart/form-data">
+<div class="wpd-field-comment">
+<div class="wpdiscuz-item wc-field-textarea">
+<div class="wpdiscuz-textarea-wrap ">
+<div class="wpd-avatar">
+<img alt="guest" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2056%2056'%3E%3C/svg%3E" data-lazy-srcset="https://secure.gravatar.com/avatar/?s=112&#038;d=mm&#038;r=g 2x" class="avatar avatar-56 photo avatar-default" height="56" width="56" data-lazy-src="https://secure.gravatar.com/avatar/?s=56&#038;d=mm&#038;r=g"><noscript><img alt="guest" src="https://secure.gravatar.com/avatar/?s=56&#038;d=mm&#038;r=g" srcset="https://secure.gravatar.com/avatar/?s=112&#038;d=mm&#038;r=g 2x" class="avatar avatar-56 photo avatar-default" height="56" width="56"></noscript> </div>
+<div id="wpd-editor-wraper-wpdiscuzuniqueid" style="display: none;">
+<div id="wpd-editor-char-counter-wpdiscuzuniqueid" class="wpd-editor-char-counter"></div>
+<label style="display: none;" for="wc-textarea-wpdiscuzuniqueid">Label</label>
+<textarea id="wc-textarea-wpdiscuzuniqueid" required name="wc_comment" class="wc_comment wpd-field"></textarea>
+<div id="wpd-editor-wpdiscuzuniqueid"></div>
+<div id="wpd-editor-toolbar-wpdiscuzuniqueid">
+<button title="Bold" class="ql-bold"></button>
+<button title="Italic" class="ql-italic"></button>
+<button title="Underline" class="ql-underline"></button>
+<button title="Strike" class="ql-strike"></button>
+<button title="Ordered List" class="ql-list" value="ordered"></button>
+<button title="Unordered List" class="ql-list" value="bullet"></button>
+<button title="Blockquote" class="ql-blockquote"></button>
+<button title="Code Block" class="ql-code-block"></button>
+<button title="Link" class="ql-link"></button>
+<button title="Source Code" class="ql-sourcecode" data-wpde_button_name="sourcecode">{}</button>
+<button title="Spoiler" class="ql-spoiler" data-wpde_button_name="spoiler">[+]</button>
+<div class="wpd-editor-buttons-right">
+<span class="wmu-upload-wrap" wpd-tooltip="Attach an image to this comment" wpd-tooltip-position="left"><label class="wmu-add"><i class="far fa-image"></i><input style="display:none;" class="wmu-add-files" type="file" name="wmu_files[]" accept="image/*"></label></span> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpd-form-foot" style="display:none;">
+<div class="wpdiscuz-textarea-foot">
+<div class="wpdiscuz-button-actions"><div class="wmu-action-wrap"><div class="wmu-tabs wmu-images-tab wmu-hide"></div></div></div>
+</div>
+<div class="wpd-form-row">
+<div class="wpd-form-col-left">
+<div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-user"></i></div>
+<input id="wc_name-wpdiscuzuniqueid" value="" required="required" aria-required="true" class="wc_name wpd-field" type="text" name="wc_name" placeholder="Name*" maxlength="50" pattern=".{3,50}" title="">
+<label for="wc_name-wpdiscuzuniqueid" class="wpdlb">Name*</label>
+</div>
+<div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-at"></i></div>
+<input id="wc_email-wpdiscuzuniqueid" value="" required="required" aria-required="true" class="wc_email wpd-field" type="email" name="wc_email" placeholder="Email*">
+<label for="wc_email-wpdiscuzuniqueid" class="wpdlb">Email*</label>
+</div>
+<div class="wpdiscuz-item wc_website-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-link"></i></div>
+<input id="wc_website-wpdiscuzuniqueid" value="" class="wc_website wpd-field" type="text" name="wc_website" placeholder="Website">
+<label for="wc_website-wpdiscuzuniqueid" class="wpdlb">Website</label>
+</div>
+</div>
+<div class="wpd-form-col-right">
+<div class="wpd-field-captcha wpdiscuz-item">
+<div class="wpdiscuz-recaptcha" id="wpdiscuz-recaptcha-wpdiscuzuniqueid"></div>
+<input id="wpdiscuz-recaptcha-field-wpdiscuzuniqueid" type="hidden" name="wc_captcha" value="" required="required" aria-required="true" class="wpdiscuz_reset">
+<div class="clearfix"></div>
+</div>
+<div class="wc-field-submit">
+<label class="wpd_label" wpd-tooltip="Notify of new replies to this comment">
+<input id="wc_notification_new_comment-wpdiscuzuniqueid" class="wc_notification_new_comment-wpdiscuzuniqueid wpd_label__checkbox" value="comment" type="checkbox" name="wpdiscuz_notification_type">
+<span class="wpd_label__text">
+<span class="wpd_label__check">
+<i class="fas fa-bell wpdicon wpdicon-on"></i>
+<i class="fas fa-bell-slash wpdicon wpdicon-off"></i>
+</span>
+</span>
+</label>
+<input id="wpd-field-submit-wpdiscuzuniqueid" class="wc_comm_submit wpd_not_clicked wpd-prim-button" type="submit" name="submit" value="Post Comment">
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<input type="hidden" class="wpdiscuz_unique_id" value="wpdiscuzuniqueid" name="wpdiscuz_unique_id">
+</form>
+</div>
+</div>
+</div>
+<div id="wpd-threads" class="wpd-thread-wrapper">
+<div class="wpd-thread-head">
+<div class="wpd-thread-info " data-comments-count="0">
+<span class="wpdtc" title="0">0</span> Comments </div>
+<div class="wpd-space"></div>
+<div class="wpd-thread-filter">
+<div class="wpd-filter wpdf-reacted wpd_not_clicked" wpd-tooltip="Most reacted comment"><i class="fas fa-bolt"></i></div>
+<div class="wpd-filter wpdf-hottest wpd_not_clicked" wpd-tooltip="Hottest comment thread"><i class="fas fa-fire"></i></div>
+</div>
+</div>
+<div class="wpd-comment-info-bar">
+<div class="wpd-current-view">
+<i class="fas fa-quote-left"></i> Inline Feedbacks</div>
+<div class="wpd-filter-view-all">View all comments</div>
+</div>
+<div class="wpd-thread-list">
+<div class="wpdiscuz-comment-pagination">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wpdiscuz-loading-bar" class="wpdiscuz-loading-bar-unauth"></div>
+<div id="wpdiscuz-comment-message" class="wpdiscuz-comment-message-unauth"></div>
+<div class="nv-post-navigation">
+<div class="previous"><a href="https://www.jamfinity.com/mysql-update/" rel="prev"><span class="nav-direction">previous</span><span>MySQL Update</span></a></div>
+<div class="next"><a href="https://www.jamfinity.com/html-styling-texts/" rel="next"><span class="nav-direction">next</span><span>HTML Styling Texts</span></a></div>
+</div> </article>
+<div class="nv-sidebar-wrap col-sm-12 nv-right blog-sidebar">
+<aside id="secondary" role="complementary">
+<div id="block-10" class="widget widget_block">
+<script data-cfasync="false" src="https://www.jamfinity.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8721136696893226" crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8721136696893226" data-ad-slot="6665830830" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div id="wpp-2" class="widget popular-posts">
+<h2 class="widget-title">Popular </h2> <div class="wpp-widget-placeholder" data-widget-id="wpp-2"></div>
+</div>
+<div id="block-3" class="widget widget_block widget_recent_entries"><ul class="wp-block-latest-posts__list wp-block-latest-posts">
+<li><a href="https://www.jamfinity.com/learn-java/">Learn Java &#8211; Introduction to Java Programming Language</a></li>
+<li><a href="https://www.jamfinity.com/customer-relationship-groups-in-marketing/">Customer Relationship Groups in Marketing</a></li>
+<li><a href="https://www.jamfinity.com/numbers-in-python/">Numbers in Python</a></li>
+<li><a href="https://www.jamfinity.com/variables-in-python/">Variables in Python</a></li>
+<li><a href="https://www.jamfinity.com/foundation-of-project-management/">Foundation of Project Management</a></li>
+</ul></div>
+<div id="text-2" class="widget widget_text">
+<p class="widget-title">Achievements</p> <div class="textwidget">
+<p>Jamfinity has students all over the world who are looking for free resources and tutorials regarding computer languages.</p>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+</main>
+<a tabindex="0" on="tap:neve_body.scrollTo(duration=200)" id="scroll-to-top" class="scroll-to-top scroll-to-top-right  scroll-show-mobile icon" aria-label="Scroll to Top"><svg class="scroll-to-top-icon" width="15" height="15" viewbox="0 0 448 512"><path fill="currentColor" d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg></a><footer class="site-footer" id="site-footer" next-page-hide>
+<div class="hfg_footer">
+<div class="footer--row footer-bottom layout-full-contained" id="cb-row--footer-bottom" data-row-id="bottom" data-show-on="desktop">
+<div class="footer--row-inner footer-bottom-inner footer-content-wrap">
+<div class="container">
+<div class="hfg-grid nv-footer-content hfg-grid-bottom row--wrapper row " data-section="hfg_footer_layout_bottom">
+<div class="hfg-slot left"></div>
+<div class="hfg-slot c-left single hfg-item-v-middle"><div class="builder-item desktop-center tablet-left mobile-left">
+<div class="item--inner builder-item--footer-menu has_menu" data-section="footer_menu_primary" data-item-id="footer-menu">
+<div class="component-wrap">
+<div role="navigation" class="style-plain nav-menu-footer" aria-label="Footer Menu">
+<ul id="footer-menu" class="footer-menu nav-ul">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2608"><a href="https://www.jamfinity.com/">Learn to code</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2154"><a href="https://www.jamfinity.com/tutorials/">Learn Skills</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3853"><a href="https://www.jamfinity.com/free-powerpoint-ppt-slides-and-google-slides-for-your-presentation/">PowerPoint Slides</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3021"><a href="https://blog.jamfinity.com/">Blogs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a href="https://www.jamfinity.com/my-account/">My Account</a></li>
+</ul> </div>
+</div>
+</div>
+</div></div>
+<div class="hfg-slot center"></div> </div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<a href="javascript:void(0);" id="wpdUserContentInfoAnchor" style="display:none;" rel="#wpdUserContentInfo" data-wpd-lity>wpDiscuz</a><div id="wpdUserContentInfo" style="overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;" class="lity-hide"></div>
+<div id="wpd-bubble-wrapper">
+<span id="wpd-bubble-all-comments-count" style="display:none;" title="0">0</span><div id="wpd-bubble-count">
+<svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path class="wpd-bubble-count-first" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"></path><path class="wpd-bubble-count-second" d="M0 0h24v24H0z"></path></svg><span class="wpd-new-comments-count">0</span>
+</div>
+<div id="wpd-bubble">
+<svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path class="wpd-bubble-plus-first" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path><path class="wpd-bubble-plus-second" d="M0 0h24v24H0z"></path></svg><div id="wpd-bubble-add-message">Would love your thoughts, please comment.<span id="wpd-bubble-add-message-close"><a href="#">x</a></span>
+</div>
+</div>
+<div id="wpd-bubble-notification">
+<svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path class="wpd-bubble-notification-first" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"></path><path class="wpd-bubble-notification-second" d="M0 0h24v24H0z"></path></svg><div id="wpd-bubble-notification-message">
+<div id="wpd-bubble-author">
+<div>
+<span id="wpd-bubble-author-avatar"></span><span id="wpd-bubble-author-name"></span><span id="wpd-bubble-comment-date">(<span class="wpd-bubble-spans"></span>)</span>
+</div>
+<span id="wpd-bubble-comment-close"><a href="#">x</a></span>
+</div>
+<div id="wpd-bubble-comment">
+<span id="wpd-bubble-comment-text"></span><span id="wpd-bubble-comment-reply-link">| <a href="#">Reply</a></span>
+</div>
+</div>
+</div>
+</div>
+<div id="wpd-editor-source-code-wrapper-bg"></div>
+<div id="wpd-editor-source-code-wrapper">
+<textarea id="wpd-editor-source-code"></textarea><button id="wpd-insert-source-code">Insert</button><input type="hidden" id="wpd-editor-uid">
+</div> <script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="pswp__bg"></div>
+<div class="pswp__scroll-wrap">
+<div class="pswp__container">
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class="pswp__top-bar">
+<div class="pswp__counter"></div>
+<button class="pswp__button pswp__button--close" aria-label="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" aria-label="Share"></button>
+<button class="pswp__button pswp__button--fs" aria-label="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" aria-label="Zoom in/out"></button>
+<div class="pswp__preloader">
+<div class="pswp__preloader__icn">
+<div class="pswp__preloader__cut">
+<div class="pswp__preloader__donut"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class="pswp__share-tooltip"></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" aria-label="Previous (arrow left)"></button>
+<button class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
+<div class="pswp__caption">
+<div class="pswp__caption__center"></div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70" id="jquery-blockui-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/www.jamfinity.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.3.0" id="wc-add-to-cart-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4" id="js-cookie-js"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=5.3.0" id="woocommerce-js"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_70dedb6d020affaf0810bcc5e2c3aafb","fragment_name":"wc_fragments_70dedb6d020affaf0810bcc5e2c3aafb","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.3.0" id="wc-cart-fragments-js"></script>
+<script type="text/javascript" id="wpdiscuz-combo-js-js-extra">
+/* <![CDATA[ */
+var wpdiscuzAjaxObj = {"wc_hide_replies_text":"Hide Replies","wc_show_replies_text":"View Replies","wc_msg_required_fields":"Please fill out required fields","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_comment_edit_not_possible":"Sorry, this comment is no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","wc_spoiler_title":"Spoiler Title","wc_cannot_rate_again":"You cannot rate again","wc_not_allowed_to_rate":"You're not allowed to rate here","wc_follow_user":"Follow this user","wc_unfollow_user":"Unfollow this user","wc_follow_success":"You started following this comment author","wc_follow_canceled":"You stopped following this comment author.","wc_follow_email_confirm":"Please check your email and confirm the user following request.","wc_follow_email_confirm_fail":"Sorry, we couldn't send confirmation email.","wc_follow_login_to_follow":"Please login to follow users.","wc_follow_impossible":"We are sorry, but you can't follow this user.","wc_follow_not_added":"Following failed. Please try again later.","is_user_logged_in":"","commentListLoadType":"0","commentListUpdateType":"0","commentListUpdateTimer":"60","liveUpdateGuests":"0","wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"0","commentTextMaxLength":"0","replyTextMaxLength":"0","commentTextMinLength":"1","replyTextMinLength":"1","storeCommenterData":"100000","socialLoginAgreementCheckbox":"1","enableFbLogin":"0","fbUseOAuth2":"0","enableFbShare":"0","facebookAppID":"","facebookUseOAuth2":"0","enableGoogleLogin":"0","googleClientID":"","googleClientSecret":"","cookiehash":"90fa1631221436cb1fc18dd67fbac17f","isLoadOnlyParentComments":"0","scrollToComment":"1","commentFormView":"collapsed","enableDropAnimation":"1","isNativeAjaxEnabled":"1","enableBubble":"1","bubbleLiveUpdate":"1","bubbleHintTimeout":"45","bubbleHintHideTimeout":"10","cookieHideBubbleHint":"wpdiscuz_hide_bubble_hint","bubbleShowNewCommentMessage":"1","bubbleLocation":"content_left","firstLoadWithAjax":"0","wc_copied_to_clipboard":"Copied to clipboard!","inlineFeedbackAttractionType":"blink","loadRichEditor":"1","wpDiscuzReCaptchaSK":"6LfU_rUcAAAAAPIsIJIOnvM-VdpRWvHb0Kw_Q6wt","wpDiscuzReCaptchaTheme":"light","wpDiscuzReCaptchaVersion":"2.0","wc_captcha_show_for_guest":"1","wc_captcha_show_for_members":"1","wpDiscuzIsShowOnSubscribeForm":"0","wmuEnabled":"1","wmuInput":"wmu_files","wmuMaxFileCount":"1","wmuMaxFileSize":"2097152","wmuPostMaxSize":"33554432","wmuIsLightbox":"1","wmuMimeTypes":{"jpg":"image\/jpeg","jpeg":"image\/jpeg","jpe":"image\/jpeg","gif":"image\/gif","png":"image\/png","bmp":"image\/bmp","tiff":"image\/tiff","tif":"image\/tiff","ico":"image\/x-icon"},"wmuPhraseConfirmDelete":"Are you sure you want to delete this attachment?","wmuPhraseNotAllowedFile":"Not allowed file type","wmuPhraseMaxFileCount":"Maximum number of uploaded files is 1","wmuPhraseMaxFileSize":"Maximum upload file size is 2MB","wmuPhrasePostMaxSize":"Maximum post size is 32MB","msgEmptyFile":"File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.","msgPostIdNotExists":"Post ID not exists","msgUploadingNotAllowed":"Sorry, uploading not allowed for this post","msgPermissionDenied":"You do not have sufficient permissions to perform this action","wmuSecurity":"a2b1ff87f1","wmuKeyImages":"images","wmuSingleImageWidth":"auto","wmuSingleImageHeight":"200","version":"7.3.4","wc_post_id":"997","isCookiesEnabled":"1","loadLastCommentId":"0","wpdiscuz_nonce":"a2b1ff87f1","dataFilterCallbacks":[],"phraseFilters":[],"scrollSize":"32","is_email_field_required":"1","url":"https:\/\/www.jamfinity.com\/wp-admin\/admin-ajax.php","customAjaxUrl":"https:\/\/www.jamfinity.com\/wp-content\/plugins\/wpdiscuz\/utils\/ajax\/wpdiscuz-ajax.php","bubbleUpdateUrl":"https:\/\/www.jamfinity.com\/wp-json\/wpdiscuz\/v1\/update","restNonce":"0c3cd068b3"};
+var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete this comment?","msgConfirmCancelSubscription":"Are you sure you want to cancel this subscription?","msgConfirmCancelFollow":"Are you sure you want to cancel this follow?","additionalTab":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="wpdiscuz-combo-js-js-before">
+        var wpdiscuzEditorOptions = {
+        modules: {
+        toolbar: "",
+        counter: {
+        uniqueID: "",
+        commentmaxcount : 0,
+        replymaxcount : 0,
+        commentmincount : 1,
+        replymincount : 1,
+        },
+		        },
+        wc_be_the_first_text: "Be the First to Comment!",
+        wc_comment_join_text: "Join the discussion",
+        theme: 'snow',
+        debug: 'error'
+        };
+		
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-combo.min.js?ver=7.3.4" id="wpdiscuz-combo-js-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&#038;render=explicit&#038;ver=1.0.0" id="wpdiscuz-google-recaptcha-js"></script>
+<script type="text/javascript" id="7be8fbe74-js-extra">
+/* <![CDATA[ */
+var localize = {"ajaxurl":"https:\/\/www.jamfinity.com\/wp-admin\/admin-ajax.php","nonce":"8210b7b6d7","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"ParticleThemesData":{"default":"{\"particles\":{\"number\":{\"value\":160,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":true,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"repulse\"},\"onclick\":{\"enable\":true,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","nasa":"{\"particles\":{\"number\":{\"value\":250,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":1,\"random\":true,\"anim\":{\"enable\":true,\"speed\":1,\"opacity_min\":0,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":4,\"size_min\":0.3,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":1,\"direction\":\"none\",\"random\":true,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":600}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":250,\"size\":0,\"duration\":2,\"opacity\":0,\"speed\":3},\"repulse\":{\"distance\":400,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","bubble":"{\"particles\":{\"number\":{\"value\":15,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#1b1e34\"},\"shape\":{\"type\":\"polygon\",\"stroke\":{\"width\":0,\"color\":\"#000\"},\"polygon\":{\"nb_sides\":6},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":50,\"random\":false,\"anim\":{\"enable\":true,\"speed\":10,\"size_min\":40,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":200,\"color\":\"#ffffff\",\"opacity\":1,\"width\":2},\"move\":{\"enable\":true,\"speed\":8,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":false,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","snow":"{\"particles\":{\"number\":{\"value\":450,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#fff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":500,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":2},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"bottom\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":0.5}},\"bubble\":{\"distance\":400,\"size\":4,\"duration\":0.3,\"opacity\":1,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","nyan_cat":"{\"particles\":{\"number\":{\"value\":150,\"density\":{\"enable\":false,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"star\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"http:\/\/wiki.lexisnexis.com\/academic\/images\/f\/fb\/Itunes_podcast_icon_300.jpg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":4,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":14,\"direction\":\"left\",\"random\":false,\"straight\":true,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":200,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}"},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing"},"eael_login_nonce":"7a234cfbc3","eael_register_nonce":"8de8cb542a"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/uploads/essential-addons-elementor/7be8fbe74.min.js?ver=1639480409" id="7be8fbe74-js"></script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/checkout\/|\/cart\/|\/my-account\/|\/wc-api\/v(.*)|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/www.jamfinity.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="text/javascript" id="neve-script-js-extra">
+/* <![CDATA[ */
+var NeveProperties = {"ajaxurl":"https:\/\/www.jamfinity.com\/wp-admin\/admin-ajax.php","nonce":"0c3cd068b3","isRTL":"","isCustomize":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/themes/neve/assets/js/build/modern/frontend.js?ver=3.0.4" id="neve-script-js" async></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-includes/js/comment-reply.min.js?ver=5.8.2" id="comment-reply-js"></script>
+<script type="text/javascript" id="neve-pro-scroll-to-top-js-extra">
+/* <![CDATA[ */
+var scrollOffset = {"offset":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/neve-pro-addon/includes/modules/scroll_to_top/assets/js/build/script.js?ver=1.5.4" id="neve-pro-scroll-to-top-js" async></script>
+<script type="text/javascript" id="neve-pro-addon-woo-booster-js-extra">
+/* <![CDATA[ */
+var neveWooBooster = {"relatedSliderStatus":"disabled","gallerySliderStatus":"disabled","recentlyViewedStatus":"disabled","labelsAsPlaceholders":"disabled","relatedSliderPerCol":"","galleryLayout":"normal","modalContentEndpoint":"https:\/\/www.jamfinity.com\/wp-json\/neve_pro\/v1\/products\/post\/","wishListUpdateEndpoint":"https:\/\/www.jamfinity.com\/wp-json\/neve_pro\/v1\/update_wishlist\/","userWishlist":"","infiniteScrollQuery":"{\"page\":\"\",\"name\":\"mysql-delete\"}","nonce":"0c3cd068b3","loggedIn":"","i18n":{"wishListNoticeTextAdd":"This product has been added to your <a href=\"https:\/\/www.jamfinity.com\/my-account\/nv-wish-list\/\">wish list<\/a>.","wishListNoticeTextRemove":"This product has been removed from your <a href=\"https:\/\/www.jamfinity.com\/my-account\/nv-wish-list\/\">wish list<\/a>.","emptyWishList":"You don&#039;t have any products in your wish list yet.","wishlistError":"There was an error while trying to update the wishlist."}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/neve-pro-addon/includes/modules/woocommerce_booster/assets/js/build/script.js?ver=1.5.4" id="neve-pro-addon-woo-booster-js" async></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-includes/js/underscore.min.js?ver=1.13.1" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-includes/js/wp-util.min.js?ver=5.8.2" id="wp-util-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-variation-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=5.3.0" id="wc-add-to-cart-variation-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-includes/js/wp-embed.min.js?ver=5.8.2" id="wp-embed-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/lottie.min.js?ver=4.5.7" id="lottie-js-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.12.1" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.12.1" id="jquery-ui-draggable-js"></script>
+<script type="text/javascript" id="premium-addons-js-extra">
+/* <![CDATA[ */
+var PremiumSettings = {"ajaxurl":"https:\/\/www.jamfinity.com\/wp-admin\/admin-ajax.php","nonce":"f7a4bdb535"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/premium-addons.min.js?ver=4.5.7" id="premium-addons-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-core.min.js?ver=1.23.0" id="prismjs_core-js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/autoloader/prism-autoloader.min.js?ver=1.23.0" id="prismjs_loader-js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js?ver=1.23.0" id="prismjs_normalize-js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.js?ver=1.23.0" id="prismjs_toolbar-js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js?ver=1.23.0" id="prismjs_copy_to_clipboard-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.3.0" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.2.4" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.2.4" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.3.0" id="elementor-sticky-js"></script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.jamfinity.com\/wp-admin\/admin-ajax.php","nonce":"e60cce4b83","urls":{"assets":"https:\/\/www.jamfinity.com\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"menu_cart":{"cart_page_url":"https:\/\/www.jamfinity.com\/cart\/","checkout_page_url":"https:\/\/www.jamfinity.com\/checkout\/"},"facebook_sdk":{"lang":"en","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.jamfinity.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.3.0" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.2.4" id="share-link-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-extra">
+/* <![CDATA[ */
+var PaModulesSettings = {"equalHeight_url":"https:\/\/www.jamfinity.com\/wp-content\/plugins\/premium-addons-for-elementor\/assets\/frontend\/min-js\/premium-eq-height.min.js"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1365,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1620,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"direction":"min","is_enabled":false}}},"version":"3.2.4","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"landing-pages":true,"form-submissions":true,"video-playlist":true},"urls":{"assets":"https:\/\/www.jamfinity.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":997,"title":"MySQL%20Delete%20-%20Jamfinity%20-%20For%20Creators","excerpt":"","featuredImage":"https:\/\/www.jamfinity.com\/wp-content\/uploads\/2021\/06\/4-1024x536.png"}};
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.2.4" id="elementor-frontend-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-after">
+window.scopes_array = {};
+                window.backend = 0;
+                jQuery( window ).on( "elementor/frontend/init", function() {
+                    elementorFrontend.hooks.addAction( "frontend/element_ready/section", function( $scope, $ ){
+                        if ( "undefined" == typeof $scope ) {
+                                return;
+                        }
+                        if ( $scope.hasClass( "premium-equal-height-yes" ) ) {
+                            var id = $scope.data("id");
+                            window.scopes_array[ id ] = $scope;
+                        }
+                        if(elementorFrontend.isEditMode()){
+                            var url = PaModulesSettings.equalHeight_url;
+                            jQuery.cachedAssets = function( url, options ) {
+                                // Allow user to set any option except for dataType, cache, and url.
+                                options = jQuery.extend( options || {}, {
+                                    dataType: "script",
+                                    cache: true,
+                                    url: url
+                                });
+                                // Return the jqXHR object so we can chain callbacks.
+                                return jQuery.ajax( options );
+                            };
+                            jQuery.cachedAssets( url );
+                            window.backend = 1;
+                        }
+                    });
+                });
+                jQuery(document).ready(function(){
+                    if ( jQuery.find( ".premium-equal-height-yes" ).length < 1 ) {
+                        return;
+                    }
+
+                    var url = PaModulesSettings.equalHeight_url;
+
+                    jQuery.cachedAssets = function( url, options ) {
+                        // Allow user to set any option except for dataType, cache, and url.
+                        options = jQuery.extend( options || {}, {
+                            dataType: "script",
+                            cache: true,
+                            url: url
+                        });
+
+                        // Return the jqXHR object so we can chain callbacks.
+                        return jQuery.ajax( options );
+                    };
+                    jQuery.cachedAssets( url );
+                });	
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.3.0" id="pro-preloaded-elements-handlers-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.2.4" id="preloaded-modules-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21" id="zoom-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2" id="flexslider-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1" id="photoswipe-js"></script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1" id="photoswipe-ui-default-js"></script>
+<script type="text/javascript" id="wc-single-product-js-extra">
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.jamfinity.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=5.3.0" id="wc-single-product-js"></script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.jamfinity.com/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script><script>function lazyLoadThumb(e){var t='<img loading="lazy" data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><\/noscript>',a='<div class="play"><\/div>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.dataset.query.length?'':'&'+this.dataset.query;e.setAttribute("src",t.replace("ID",this.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.replaceChild(e,this)}document.addEventListener("DOMContentLoaded",function(){var e,t,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),e.onclick=lazyLoadYoutubeIframe,a[t].appendChild(e)});</script>
+</body>
+</html>

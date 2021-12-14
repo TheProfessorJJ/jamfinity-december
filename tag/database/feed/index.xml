@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:media="http://search.yahoo.com/mrss/" >
+
+<channel>
+	<title>Database &#8211; Jamfinity &#8211; For Creators</title>
+	<atom:link href="https://www.jamfinity.com/tag/database/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.jamfinity.com/</link>
+	<description>Discover infinite possibilities!</description>
+	<lastBuildDate>Sun, 10 Oct 2021 15:51:42 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.2</generator>
+
+<image>
+	<url>https://www.jamfinity.com/wp-content/uploads/2021/06/Icon-1-65x65.jpg</url>
+	<title>Database &#8211; Jamfinity &#8211; For Creators</title>
+	<link>https://www.jamfinity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Learn to use MySQL using Microsoft Access</title>
+		<link>https://www.jamfinity.com/learn-to-use-mysql-with-microsoft-database/</link>
+					<comments>https://www.jamfinity.com/learn-to-use-mysql-with-microsoft-database/#respond</comments>
+		
+		<dc:creator><![CDATA[Jamil]]></dc:creator>
+		<pubDate>Sun, 23 May 2021 10:58:47 +0000</pubDate>
+				<category><![CDATA[Coding Language]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[Tutorial Front Pages]]></category>
+		<category><![CDATA[Database]]></category>
+		<category><![CDATA[Microsoft Access]]></category>
+		<guid isPermaLink="false">https://www.jamfinity.com/?p=934</guid>
+
+					<description><![CDATA[Learn how to create a database on Microsoft Access and how to use MySQL codes to send queries to the database. ]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="934" class="elementor elementor-934" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-5788f01 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5788f01" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6de5c8" data-id="b6de5c8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a64df52 elementor-post-navigation-borders-yes elementor-widget elementor-widget-post-navigation" data-id="a64df52" data-element_type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/html-span/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span><span class="post-navigation__prev--title">HTML Span</span></span></a>			</div>
+							<div class="elementor-post-navigation__separator-wrapper">
+					<div class="elementor-post-navigation__separator"></div>
+				</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/basic-mysql/" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">Next</span><span class="post-navigation__next--title">Basic MySQL</span></span><span class="post-navigation__arrow-wrapper post-navigation__arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="elementor-screen-only">Next</span></span></a>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-321195b elementor-widget elementor-widget-heading" data-id="321195b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">What is MySQL?</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9193606 elementor-widget elementor-widget-text-editor" data-id="9193606" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>MySQL is an open-source relational database management system. Its name is a combination of &#8220;My&#8221;, the name of co-founder Michael Widenius&#8217;s daughter, and &#8220;SQL&#8221;, the abbreviation for Structured Query Language. (Source: Wikipedia)</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7702d8b elementor-widget elementor-widget-heading" data-id="7702d8b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Microsoft Access</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2672c77 elementor-widget elementor-widget-text-editor" data-id="2672c77" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Microsoft Access is a database management system from Microsoft that combines the relational Microsoft Jet Database Engine with a graphical user interface and software development tools. It is a member of the Microsoft 365 suite of applications, included in the Professional and higher editions or sold separately.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3cd4116 elementor-widget elementor-widget-heading" data-id="3cd4116" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Using MySQL with Microsoft Access</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8fda54e elementor-widget elementor-widget-text-editor" data-id="8fda54e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>In this tutorial, you will learn how to create a database on Microsoft Access and how to use MySQL codes to send queries to the database.</p><p>We will use few of the basic MySQL codes in our example. If you want to get familiar with Introductory MySQL Language, click on the button below:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-22c6b32 elementor-widget elementor-widget-eael-creative-button" data-id="22c6b32" data-element_type="widget" data-widget_type="eael-creative-button.default">
+				<div class="elementor-widget-container">
+			        <div class="eael-creative-button-wrapper">
+
+            <a class="eael-creative-button eael-creative-button--default" href="https://www.jamfinity.com/basic-mysql" data-text="Go!">
+
+                <div class="creative-button-inner">
+
+                                            <span class="eael-creative-button-icon-left"></span>                    
+                    <span class="cretive-button-text">Basic MySQL</span>
+
+                                    </div>
+            </a>
+        </div>
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-b6a41bd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b6a41bd" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-206eb89" data-id="206eb89" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-10f562a elementor-widget elementor-widget-heading" data-id="10f562a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Example - 1</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7ea3812 elementor-widget elementor-widget-text-editor" data-id="7ea3812" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>I will show you how to use MySQL on Microsoft Access in the following steps:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-659c6b9 elementor-widget elementor-widget-heading" data-id="659c6b9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Step - 1</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-25628d2 elementor-widget elementor-widget-text-editor" data-id="25628d2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Let&#8217;s open up Microsoft Access and create a database.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e3d084e elementor-widget elementor-widget-image" data-id="e3d084e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1890" height="907" src="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-1.png" class="attachment-full size-full" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-1.png 1890w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-1-300x144.png 300w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-1-1024x491.png 1024w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-1-768x369.png 768w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-1-1536x737.png 1536w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-1-600x288.png 600w" sizes="(max-width: 1890px) 100vw, 1890px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-3018a14 elementor-widget elementor-widget-heading" data-id="3018a14" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Step - 2</h5>		</div>
+				</div>
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-inner-section elementor-element elementor-element-e4d36c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e4d36c6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f703eaf" data-id="f703eaf" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8d0052d elementor-widget elementor-widget-text-editor" data-id="8d0052d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Create a Table from the Create Tab on top</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-8a5b835 elementor-widget elementor-widget-image" data-id="8a5b835" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="335" src="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-2-1024x335.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-2-1024x335.png 1024w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-2-300x98.png 300w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-2-768x251.png 768w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-2-600x196.png 600w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-2.png 1028w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c7d8fe5" data-id="c7d8fe5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ab1694d elementor-widget elementor-widget-text-editor" data-id="ab1694d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>After you have created your table, it would look something like this.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-cc807c7 elementor-widget elementor-widget-image" data-id="cc807c7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="549" height="414" src="https://www.jamfinity.com/wp-content/uploads/2021/05/My-SQL-3.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/My-SQL-3.png 549w, https://www.jamfinity.com/wp-content/uploads/2021/05/My-SQL-3-300x226.png 300w" sizes="(max-width: 549px) 100vw, 549px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-d309e1e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d309e1e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f82c139" data-id="f82c139" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-da01ca7 elementor-widget elementor-widget-heading" data-id="da01ca7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Step - 3</h5>		</div>
+				</div>
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-inner-section elementor-element elementor-element-73eb2c3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="73eb2c3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-33739ff" data-id="33739ff" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-70da0fe elementor-widget elementor-widget-text-editor" data-id="70da0fe" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Let&#8217;s add some data to our table.</p><p>Click the &#8220;Downward-Arrow&#8221;. This will open up the option to select the &#8220;Type&#8221; of your data.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-8e9be9f elementor-widget elementor-widget-image" data-id="8e9be9f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="674" height="594" src="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-4.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-4.png 674w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-4-300x264.png 300w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-4-600x529.png 600w" sizes="(max-width: 674px) 100vw, 674px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9cc69d5" data-id="9cc69d5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0693ac0 elementor-widget elementor-widget-text-editor" data-id="0693ac0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Here, I have created a table of data.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d8090a9 elementor-widget elementor-widget-image" data-id="d8090a9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="719" height="475" src="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-5.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-5.png 719w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-5-300x198.png 300w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-5-600x396.png 600w" sizes="(max-width: 719px) 100vw, 719px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-a188dbc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a188dbc" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4af65da" data-id="4af65da" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4ac31b2 elementor-widget elementor-widget-heading" data-id="4ac31b2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Step - 4</h5>		</div>
+				</div>
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-inner-section elementor-element elementor-element-ae48cd4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ae48cd4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0acc4fa" data-id="0acc4fa" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d2d6e65 elementor-widget elementor-widget-text-editor" data-id="d2d6e65" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>If you have inserted your data on your database. You can write queries in MySQL Language to make commands. </p><p>To do that, open the &#8220;Design&#8221; tab on the top.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-60528ee elementor-widget elementor-widget-image" data-id="60528ee" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="703" height="763" src="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-6.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-6.png 703w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-6-276x300.png 276w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-6-300x326.png 300w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL-6-600x651.png 600w" sizes="(max-width: 703px) 100vw, 703px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6038873" data-id="6038873" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8bbd71e elementor-widget elementor-widget-text-editor" data-id="8bbd71e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>After opening the &#8220;Design&#8221; tab, Select &#8220;SQL View&#8221;. This </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-8ac2535 elementor-widget elementor-widget-image" data-id="8ac2535" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="525" height="365" src="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL7.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL7.png 525w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL7-300x209.png 300w" sizes="(max-width: 525px) 100vw, 525px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-70e089b elementor-widget elementor-widget-text-editor" data-id="70e089b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>This is will open up the Query Table. Here you can write your SQL codes.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e652861 elementor-widget elementor-widget-image" data-id="e652861" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="522" height="360" src="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL8.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL8.png 522w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL8-300x207.png 300w" sizes="(max-width: 522px) 100vw, 522px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-a051750 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a051750" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-931ea0c" data-id="931ea0c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-86046c2 elementor-widget elementor-widget-heading" data-id="86046c2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Step - 5</h5>		</div>
+				</div>
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-inner-section elementor-element elementor-element-3e672a3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3e672a3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-540b60d" data-id="540b60d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7e15c64 elementor-widget elementor-widget-text-editor" data-id="7e15c64" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Let&#8217;s write a code.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-dbd400d elementor-widget elementor-widget-code-highlight" data-id="dbd400d" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-okaidia copy-to-clipboard word-wrap">
+			<pre data-line="" class="highlight-height language-sql line-numbers">
+				<code readonly="true" class="language-sql">
+					<xmp>SELECT * FROM Table1</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ebe4c32 elementor-widget elementor-widget-text-editor" data-id="ebe4c32" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>This code selects everything from out table. </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-64b9028 elementor-widget elementor-widget-heading" data-id="64b9028" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Query:</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4a06c08 elementor-widget elementor-widget-image" data-id="4a06c08" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="516" height="321" src="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL9.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL9.png 516w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL9-300x187.png 300w" sizes="(max-width: 516px) 100vw, 516px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-5410374 elementor-widget elementor-widget-text-editor" data-id="5410374" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>After writing the query, click on &#8220;Run&#8221; to run your code.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-272c4a2 elementor-widget elementor-widget-image" data-id="272c4a2" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="516" height="321" src="https://www.jamfinity.com/wp-content/uploads/2021/05/MYSQL10.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/MYSQL10.png 516w, https://www.jamfinity.com/wp-content/uploads/2021/05/MYSQL10-300x187.png 300w" sizes="(max-width: 516px) 100vw, 516px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-08f6599 elementor-widget elementor-widget-heading" data-id="08f6599" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Result:</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fe543d2 elementor-widget elementor-widget-text-editor" data-id="fe543d2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>We have selected everything from our table.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-f99871d elementor-widget elementor-widget-image" data-id="f99871d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="722" height="392" src="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL11.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL11.png 722w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL11-300x163.png 300w, https://www.jamfinity.com/wp-content/uploads/2021/05/MySQL11-600x326.png 600w" sizes="(max-width: 722px) 100vw, 722px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-ee1d3d0 elementor-widget elementor-widget-text-editor" data-id="ee1d3d0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>After you are done with your query, you can either save or close the query by clicking on the close icon on the top right </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-f73cb01 elementor-widget elementor-widget-heading" data-id="f73cb01" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Now you try.</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-62b311c elementor-widget elementor-widget-code-highlight" data-id="62b311c" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-default copy-to-clipboard word-wrap">
+			<pre data-line="" class="highlight-height language-javascript line-numbers">
+				<code readonly="true" class="language-javascript">
+					<xmp>SELECT Salary 
+FROM table1
+WHERE id = 5;
+
+SELECT Name
+FROM table1
+WHERE Salary >= 40000;</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-41ef159 elementor-widget elementor-widget-text-editor" data-id="41ef159" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Follow step &#8211; 4 and try out the example code I have provided. Let&#8217;s see what happens. </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-545277f elementor-widget elementor-widget-eael-creative-button" data-id="545277f" data-element_type="widget" data-widget_type="eael-creative-button.default">
+				<div class="elementor-widget-container">
+			        <div class="eael-creative-button-wrapper">
+
+            <a class="eael-creative-button eael-creative-button--default" href="https://www.jamfinity.com/basic-mysql" data-text="Go!">
+
+                <div class="creative-button-inner">
+
+                                            <span class="eael-creative-button-icon-left"></span>                    
+                    <span class="cretive-button-text">More Examples!</span>
+
+                                    </div>
+            </a>
+        </div>
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://www.jamfinity.com/learn-to-use-mysql-with-microsoft-database/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

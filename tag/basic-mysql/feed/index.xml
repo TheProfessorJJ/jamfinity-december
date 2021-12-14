@@ -1,0 +1,1769 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:media="http://search.yahoo.com/mrss/" >
+
+<channel>
+	<title>Basic MySQL &#8211; Jamfinity &#8211; For Creators</title>
+	<atom:link href="https://www.jamfinity.com/tag/basic-mysql/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.jamfinity.com/</link>
+	<description>Discover infinite possibilities!</description>
+	<lastBuildDate>Sun, 10 Oct 2021 15:51:01 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.2</generator>
+
+<image>
+	<url>https://www.jamfinity.com/wp-content/uploads/2021/06/Icon-1-65x65.jpg</url>
+	<title>Basic MySQL &#8211; Jamfinity &#8211; For Creators</title>
+	<link>https://www.jamfinity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>MySQL Delete</title>
+		<link>https://www.jamfinity.com/mysql-delete/</link>
+					<comments>https://www.jamfinity.com/mysql-delete/#respond</comments>
+		
+		<dc:creator><![CDATA[Jamil]]></dc:creator>
+		<pubDate>Sun, 23 May 2021 18:59:21 +0000</pubDate>
+				<category><![CDATA[Basic MySQL]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[Basic SQL]]></category>
+		<category><![CDATA[Coding Language]]></category>
+		<category><![CDATA[MySQL Coding Lanuage]]></category>
+		<category><![CDATA[MySQL Tutorial]]></category>
+		<guid isPermaLink="false">https://www.jamfinity.com/?p=997</guid>
+
+					<description><![CDATA[More Coding HTML WordPress Tutorials DELETE FROM The DELETE FROM statement is used to delete one or more rows from an existing table in a database. Format: DELETE FROM table_name WHERE row_name = "value" Example: You have to delete the record of ID =1002 from a table called customer. This is what the table looks&#8230;&#160;<a href="https://www.jamfinity.com/mysql-delete/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">MySQL Delete</span></a>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="997" class="elementor elementor-997" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-8c2ce0b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8c2ce0b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-11804a1" data-id="11804a1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-059922d" data-id="059922d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b5e2aaf elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b5e2aaf" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-code"></i>						</span>
+										<span class="elementor-icon-list-text">MySQL Delete</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a64df52 elementor-post-navigation-borders-yes elementor-widget elementor-widget-post-navigation" data-id="a64df52" data-element_type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-update/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span><span class="post-navigation__prev--title">MySQL Update</span></span></a>			</div>
+							<div class="elementor-post-navigation__separator-wrapper">
+					<div class="elementor-post-navigation__separator"></div>
+				</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/html-styling-texts/" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">Next</span><span class="post-navigation__next--title">HTML Styling Texts</span></span><span class="post-navigation__arrow-wrapper post-navigation__arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="elementor-screen-only">Next</span></span></a>			</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ff5cec9" data-id="ff5cec9" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-43e3638 elementor-widget elementor-widget-premium-addon-button" data-id="43e3638" data-element_type="widget" data-widget_type="premium-addon-button.default">
+				<div class="elementor-widget-container">
+			
+	<div class="premium-button-container">
+		<a class="premium-button premium-button-style7 premium-btn-sm premium-button-style7-bottom" href="#">
+			<div class="premium-button-text-icon-wrapper">
+																						<i aria-hidden="true" class="fas fa-bolt"></i>																			<span >
+					More				</span>
+																</div>
+								</a>
+	</div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-fc79d74 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fc79d74" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-70e9d20" data-id="70e9d20" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2bcc72c elementor-widget elementor-widget-heading" data-id="2bcc72c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default"><a href="https://www.jamfinity.com/learn-to-code">Coding</a></h4>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-be22f29" data-id="be22f29" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-30f6093 elementor-widget elementor-widget-heading" data-id="30f6093" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default"><a href="https://www.jamfinity.com/html-tutorial">HTML</a></h4>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-ca1929e" data-id="ca1929e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f734807 elementor-widget elementor-widget-heading" data-id="f734807" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default"><a href="#">WordPress</a></h4>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-254b9d9" data-id="254b9d9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-882d655 elementor-widget elementor-widget-heading" data-id="882d655" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default"><a href="https://www.jamfinity.com/tutorials">Tutorials</a></h4>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-0d64880 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0d64880" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5a6d95f elementor-hidden-tablet elementor-hidden-phone" data-id="5a6d95f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b2cb613 elementor-grid-1 elementor-posts--thumbnail-none elementor-posts--align-left elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="b2cb613" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:14,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-968 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-coding-language category-mysql category-tutorial-front-pages tag-basic-mysql tag-coding-language tag-mysql">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/basic-mysql/" target="_blank">
+				Basic MySQL			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-1040 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-introduction/" target="_blank">
+				MySQL Introduction			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-987 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-create/" target="_blank">
+				MySQL Create			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-989 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-insert/" target="_blank">
+				MySQL Insert			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-991 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-select/" target="_blank">
+				MySQL Select			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-993 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-alter/" target="_blank">
+				MySQL Alter			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-995 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-update/" target="_blank">
+				MySQL Update			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-997 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-delete/" target="_blank">
+				MySQL Delete			</a>
+		</h6>
+				</div>
+				</article>
+				</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-562ffe6" data-id="562ffe6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-31b008a elementor-widget elementor-widget-heading" data-id="31b008a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">DELETE FROM</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-180e243 elementor-widget elementor-widget-text-editor" data-id="180e243" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>The DELETE FROM statement is used to delete one or more rows from an existing table in a database.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-46f5f67 elementor-widget elementor-widget-heading" data-id="46f5f67" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Format:</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4758d6c elementor-widget elementor-widget-code-highlight" data-id="4758d6c" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-okaidia copy-to-clipboard ">
+			<pre data-line="" class="highlight-height language-sql ">
+				<code readonly="true" class="language-sql">
+					<xmp>DELETE FROM table_name
+WHERE row_name = "value"</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6bcc419 elementor-widget elementor-widget-heading" data-id="6bcc419" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Example:</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-cd739d2 elementor-widget elementor-widget-text-editor" data-id="cd739d2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>You have to delete the record of ID =1002 from a table called customer.</p><p>This is what the table looks like.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-427e632 elementor-widget elementor-widget-image" data-id="427e632" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="472" height="198" src="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-5.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-5.png 472w, https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-5-300x126.png 300w" sizes="(max-width: 472px) 100vw, 472px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-a0db49b elementor-widget elementor-widget-text-editor" data-id="a0db49b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>In order to do that, we have to write the following statement:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e7127fb elementor-widget elementor-widget-code-highlight" data-id="e7127fb" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-okaidia copy-to-clipboard word-wrap">
+			<pre data-line="" class="highlight-height language-sql ">
+				<code readonly="true" class="language-sql">
+					<xmp>DELETE FROM customer
+WHERE ID = 1002;</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9675408 elementor-widget elementor-widget-text-editor" data-id="9675408" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Result:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-f945cdd elementor-widget elementor-widget-image" data-id="f945cdd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="473" height="186" src="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7-1.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7-1.png 473w, https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7-1-300x118.png 300w" sizes="(max-width: 473px) 100vw, 473px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-bcab1f6 elementor-widget elementor-widget-text-editor" data-id="bcab1f6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Let&#8217;s break down our statement:</p><ul><li>DELETE FROM is followed by the name of the table</li><li>WHERE indicates the exact row you want to delete the record from.</li></ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-996c1bb elementor-widget elementor-widget-eael-creative-button" data-id="996c1bb" data-element_type="widget" data-widget_type="eael-creative-button.default">
+				<div class="elementor-widget-container">
+			        <div class="eael-creative-button-wrapper">
+
+            <a class="eael-creative-button eael-creative-button--default" href="https://www.jamfinity.com/learn-to-use-mysql-with-microsoft-database" data-text="Go!">
+
+                <div class="creative-button-inner">
+
+                                            <span class="eael-creative-button-icon-left"></span>                    
+                    <span class="cretive-button-text">Using MySQL with Microsoft Access</span>
+
+                                    </div>
+            </a>
+        </div>
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-52cc734 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="52cc734" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e7545f9" data-id="e7545f9" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://www.jamfinity.com/mysql-delete/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MySQL Update</title>
+		<link>https://www.jamfinity.com/mysql-update/</link>
+					<comments>https://www.jamfinity.com/mysql-update/#respond</comments>
+		
+		<dc:creator><![CDATA[Jamil]]></dc:creator>
+		<pubDate>Sun, 23 May 2021 18:59:07 +0000</pubDate>
+				<category><![CDATA[Basic MySQL]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[Basic SQL]]></category>
+		<category><![CDATA[Coding Language]]></category>
+		<category><![CDATA[MySQL Coding Lanuage]]></category>
+		<category><![CDATA[MySQL Tutorial]]></category>
+		<guid isPermaLink="false">https://www.jamfinity.com/?p=995</guid>
+
+					<description><![CDATA[Update statement The UPDATE statement lets you edit an existing row in a table. Format UPDATE table_name SET column_name = "new value" WHERE row_name =]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="995" class="elementor elementor-995" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-0d64880 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0d64880" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5a6d95f elementor-hidden-tablet elementor-hidden-phone" data-id="5a6d95f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0def7ab elementor-grid-1 elementor-posts--thumbnail-none elementor-posts--align-left elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="0def7ab" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:14,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-968 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-coding-language category-mysql category-tutorial-front-pages tag-basic-mysql tag-coding-language tag-mysql">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/basic-mysql/" target="_blank">
+				Basic MySQL			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-1040 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-introduction/" target="_blank">
+				MySQL Introduction			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-987 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-create/" target="_blank">
+				MySQL Create			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-989 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-insert/" target="_blank">
+				MySQL Insert			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-991 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-select/" target="_blank">
+				MySQL Select			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-993 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-alter/" target="_blank">
+				MySQL Alter			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-995 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-update/" target="_blank">
+				MySQL Update			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-997 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-delete/" target="_blank">
+				MySQL Delete			</a>
+		</h6>
+				</div>
+				</article>
+				</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-562ffe6" data-id="562ffe6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b5e2aaf elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b5e2aaf" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-code"></i>						</span>
+										<span class="elementor-icon-list-text">MySQL Update</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a64df52 elementor-post-navigation-borders-yes elementor-widget elementor-widget-post-navigation" data-id="a64df52" data-element_type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-alter/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span><span class="post-navigation__prev--title">MySQL Alter</span></span></a>			</div>
+							<div class="elementor-post-navigation__separator-wrapper">
+					<div class="elementor-post-navigation__separator"></div>
+				</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-delete/" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">Next</span><span class="post-navigation__next--title">MySQL Delete</span></span><span class="post-navigation__arrow-wrapper post-navigation__arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="elementor-screen-only">Next</span></span></a>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-31b008a elementor-widget elementor-widget-heading" data-id="31b008a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Update statement</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fd9beeb elementor-widget elementor-widget-text-editor" data-id="fd9beeb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>The UPDATE statement lets you edit an existing row in a table. </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-401d957 elementor-widget elementor-widget-heading" data-id="401d957" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Format</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ffc3800 elementor-widget elementor-widget-code-highlight" data-id="ffc3800" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-tomorrow copy-to-clipboard word-wrap">
+			<pre data-line="" class="highlight-height language-sql ">
+				<code readonly="true" class="language-sql">
+					<xmp>UPDATE table_name
+SET column_name = "new value"
+WHERE row_name = "existing value"</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-fe7962e elementor-widget elementor-widget-heading" data-id="fe7962e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">For Example:</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9d23b43 elementor-widget elementor-widget-text-editor" data-id="9d23b43" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Your employer has asked you to remove $5000 from the balance of the person whose ID=1003.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-8ac354e elementor-widget elementor-widget-image" data-id="8ac354e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="473" height="186" src="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7.png 473w, https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-7-300x118.png 300w" sizes="(max-width: 473px) 100vw, 473px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-de62b8f elementor-widget elementor-widget-text-editor" data-id="de62b8f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>The SQL statement would be:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e55e54f elementor-widget elementor-widget-code-highlight" data-id="e55e54f" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-okaidia copy-to-clipboard word-wrap">
+			<pre data-line="" class="highlight-height language-sql ">
+				<code readonly="true" class="language-sql">
+					<xmp>UPDATE customer
+SET Balance = Balance - 5000
+WHERE id = 1003;</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-24edca0 elementor-widget elementor-widget-text-editor" data-id="24edca0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Result: </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-023ac61 elementor-widget elementor-widget-image" data-id="023ac61" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="475" height="172" src="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-9.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-9.png 475w, https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-9-300x109.png 300w" sizes="(max-width: 475px) 100vw, 475px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-f560ac7 elementor-widget elementor-widget-text-editor" data-id="f560ac7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								Let&#8217;s break down our statement:
+<ul>
+ 	<li><code>UPDATE</code> is followed by the name of the table</li>
+ 	<li><code>SET</code> is followed by the column name</li>
+ 	<li>On our example, we have to remove $5000 from existing value. That&#8217;s why, we have to <code>SET</code> the Balance to be equal to Balance subtracted by $5000.</li>
+ 	<li>On the last line, <code>WHERE</code> clause is used to specify the name of the row from which we want to reduce the value.</li>
+</ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-996c1bb elementor-widget elementor-widget-eael-creative-button" data-id="996c1bb" data-element_type="widget" data-widget_type="eael-creative-button.default">
+				<div class="elementor-widget-container">
+			        <div class="eael-creative-button-wrapper">
+
+            <a class="eael-creative-button eael-creative-button--default" href="https://www.jamfinity.com/learn-to-use-mysql-with-microsoft-database" data-text="Go!">
+
+                <div class="creative-button-inner">
+
+                                            <span class="eael-creative-button-icon-left"></span>                    
+                    <span class="cretive-button-text">Using MySQL with Microsoft Access</span>
+
+                                    </div>
+            </a>
+        </div>
+		</div>
+				</div>
+				<div class="elementor-element elementor-element-860ad7f elementor-widget elementor-widget-html" data-id="860ad7f" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8721136696893226"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8721136696893226"
+     data-ad-slot="6178853478"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://www.jamfinity.com/mysql-update/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MySQL Alter</title>
+		<link>https://www.jamfinity.com/mysql-alter/</link>
+					<comments>https://www.jamfinity.com/mysql-alter/#respond</comments>
+		
+		<dc:creator><![CDATA[Jamil]]></dc:creator>
+		<pubDate>Sun, 23 May 2021 18:58:52 +0000</pubDate>
+				<category><![CDATA[Basic MySQL]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[Basic SQL]]></category>
+		<category><![CDATA[Coding Language]]></category>
+		<category><![CDATA[MySQL Coding Lanuage]]></category>
+		<category><![CDATA[MySQL Tutorial]]></category>
+		<guid isPermaLink="false">https://www.jamfinity.com/?p=993</guid>
+
+					<description><![CDATA[Adding a new column to a table The ALTER TABLE helps you add a column with specified data type to an existing table. ALTER TABLE]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="993" class="elementor elementor-993" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-0d64880 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0d64880" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5a6d95f elementor-hidden-tablet elementor-hidden-phone" data-id="5a6d95f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-95bab0f elementor-grid-1 elementor-posts--thumbnail-none elementor-posts--align-left elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="95bab0f" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:14,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-968 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-coding-language category-mysql category-tutorial-front-pages tag-basic-mysql tag-coding-language tag-mysql">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/basic-mysql/" target="_blank">
+				Basic MySQL			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-1040 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-introduction/" target="_blank">
+				MySQL Introduction			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-987 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-create/" target="_blank">
+				MySQL Create			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-989 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-insert/" target="_blank">
+				MySQL Insert			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-991 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-select/" target="_blank">
+				MySQL Select			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-993 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-alter/" target="_blank">
+				MySQL Alter			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-995 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-update/" target="_blank">
+				MySQL Update			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-997 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-delete/" target="_blank">
+				MySQL Delete			</a>
+		</h6>
+				</div>
+				</article>
+				</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-562ffe6" data-id="562ffe6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b5e2aaf elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b5e2aaf" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-code"></i>						</span>
+										<span class="elementor-icon-list-text">MySQL Alter</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a64df52 elementor-post-navigation-borders-yes elementor-widget elementor-widget-post-navigation" data-id="a64df52" data-element_type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-select/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span><span class="post-navigation__prev--title">MySQL Select</span></span></a>			</div>
+							<div class="elementor-post-navigation__separator-wrapper">
+					<div class="elementor-post-navigation__separator"></div>
+				</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-update/" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">Next</span><span class="post-navigation__next--title">MySQL Update</span></span><span class="post-navigation__arrow-wrapper post-navigation__arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="elementor-screen-only">Next</span></span></a>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-31b008a elementor-widget elementor-widget-heading" data-id="31b008a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Adding a new column to a table</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-180e243 elementor-widget elementor-widget-text-editor" data-id="180e243" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>The <code>ALTER TABLE</code> helps you add a column with specified data type to an existing table.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0c6416e elementor-widget elementor-widget-code-highlight" data-id="0c6416e" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-okaidia copy-to-clipboard ">
+			<pre data-line="" class="highlight-height language-sql ">
+				<code readonly="true" class="language-sql">
+					<xmp>ALTER TABLE customer
+ADD COLUMN address TEXT;</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6d08307 elementor-widget elementor-widget-text-editor" data-id="6d08307" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								Let&#8217;s break down our statement:
+<ul>
+ 	<li><code>ALTER TABLE</code> is followed by the table name.</li>
+ 	<li><code>ADD COLUMN</code> lets you add a column. It is followed by the name of the column</li>
+ 	<li>After writing the name of the column, we have to specify it&#8217;s type. In our example, the data type of our new column &#8220;address&#8221; is <code>TEXT</code>.</li>
+</ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-996c1bb elementor-widget elementor-widget-eael-creative-button" data-id="996c1bb" data-element_type="widget" data-widget_type="eael-creative-button.default">
+				<div class="elementor-widget-container">
+			        <div class="eael-creative-button-wrapper">
+
+            <a class="eael-creative-button eael-creative-button--default" href="https://www.jamfinity.com/learn-to-use-mysql-with-microsoft-database" data-text="Go!">
+
+                <div class="creative-button-inner">
+
+                                            <span class="eael-creative-button-icon-left"></span>                    
+                    <span class="cretive-button-text">Using MySQL with Microsoft Access</span>
+
+                                    </div>
+            </a>
+        </div>
+		</div>
+				</div>
+				<div class="elementor-element elementor-element-099194e elementor-widget elementor-widget-html" data-id="099194e" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8721136696893226"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8721136696893226"
+     data-ad-slot="6178853478"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://www.jamfinity.com/mysql-alter/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MySQL Select</title>
+		<link>https://www.jamfinity.com/mysql-select/</link>
+					<comments>https://www.jamfinity.com/mysql-select/#respond</comments>
+		
+		<dc:creator><![CDATA[Jamil]]></dc:creator>
+		<pubDate>Sun, 23 May 2021 18:58:33 +0000</pubDate>
+				<category><![CDATA[Basic MySQL]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[Basic SQL]]></category>
+		<category><![CDATA[Coding Language]]></category>
+		<category><![CDATA[MySQL Coding Lanuage]]></category>
+		<category><![CDATA[MySQL Tutorial]]></category>
+		<guid isPermaLink="false">https://www.jamfinity.com/?p=991</guid>
+
+					<description><![CDATA[Fetching Data The SELECT statement is used to fetch data from a database.It indicates that the statement is a query.The SELECT is used every time]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="991" class="elementor elementor-991" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-0d64880 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0d64880" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5a6d95f" data-id="5a6d95f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d0848ba elementor-grid-1 elementor-posts--thumbnail-none elementor-posts--align-left elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="d0848ba" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:14,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-968 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-coding-language category-mysql category-tutorial-front-pages tag-basic-mysql tag-coding-language tag-mysql">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/basic-mysql/" target="_blank">
+				Basic MySQL			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-1040 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-introduction/" target="_blank">
+				MySQL Introduction			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-987 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-create/" target="_blank">
+				MySQL Create			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-989 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-insert/" target="_blank">
+				MySQL Insert			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-991 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-select/" target="_blank">
+				MySQL Select			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-993 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-alter/" target="_blank">
+				MySQL Alter			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-995 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-update/" target="_blank">
+				MySQL Update			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-997 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-delete/" target="_blank">
+				MySQL Delete			</a>
+		</h6>
+				</div>
+				</article>
+				</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-562ffe6" data-id="562ffe6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b5e2aaf elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b5e2aaf" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-code"></i>						</span>
+										<span class="elementor-icon-list-text">MySQL Select</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a64df52 elementor-post-navigation-borders-yes elementor-widget elementor-widget-post-navigation" data-id="a64df52" data-element_type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-insert/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span><span class="post-navigation__prev--title">MySQL Insert</span></span></a>			</div>
+							<div class="elementor-post-navigation__separator-wrapper">
+					<div class="elementor-post-navigation__separator"></div>
+				</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-alter/" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">Next</span><span class="post-navigation__next--title">MySQL Alter</span></span><span class="post-navigation__arrow-wrapper post-navigation__arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="elementor-screen-only">Next</span></span></a>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-31b008a elementor-widget elementor-widget-heading" data-id="31b008a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Fetching Data</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-180e243 elementor-widget elementor-widget-text-editor" data-id="180e243" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>The <code>SELECT</code> statement is used to fetch data from a database.<br />It indicates that the statement is a query.<br />The <code>SELECT</code> is used every time we have to retrieve a set of records.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-67ad024 elementor-widget elementor-widget-code-highlight" data-id="67ad024" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-twilight copy-to-clipboard ">
+			<pre data-line="" class="highlight-height language-sql ">
+				<code readonly="true" class="language-sql">
+					<xmp>Basic Format:
+SELECT column_name FROM table_name
+</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-198e9de elementor-widget elementor-widget-code-highlight" data-id="198e9de" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-okaidia copy-to-clipboard ">
+			<pre data-line="" class="highlight-height language-sql ">
+				<code readonly="true" class="language-sql">
+					<xmp>Example - 1:
+
+SELECT name FROM jamfinity;
+
+Example - 2:
+
+SELECT * FROM customer;
+</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-36083f0 elementor-widget elementor-widget-text-editor" data-id="36083f0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								Let&#8217;s break down our query statement:
+<ul>
+ 	<li><code>SELECT</code> indicates that the statement is a query.</li>
+ 	<li><code>name</code> specifies the Column from which you want to fetch the data.</li>
+ 	<li><code>FROM jamfinity</code> specifies that the table we want to fetch the data from is called jamfinity.</li>
+</ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-5109e03 elementor-widget elementor-widget-text-editor" data-id="5109e03" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								To query data from all columns in a table we use <code>*</code>
+<br>
+<strong><code>*</code> allows us to fetch every column in the table.</strong> 						</div>
+				</div>
+				<div class="elementor-element elementor-element-996c1bb elementor-widget elementor-widget-eael-creative-button" data-id="996c1bb" data-element_type="widget" data-widget_type="eael-creative-button.default">
+				<div class="elementor-widget-container">
+			        <div class="eael-creative-button-wrapper">
+
+            <a class="eael-creative-button eael-creative-button--default" href="https://www.jamfinity.com/learn-to-use-mysql-with-microsoft-database" data-text="Go!">
+
+                <div class="creative-button-inner">
+
+                                            <span class="eael-creative-button-icon-left"></span>                    
+                    <span class="cretive-button-text">Using MySQL with Microsoft Access</span>
+
+                                    </div>
+            </a>
+        </div>
+		</div>
+				</div>
+				<div class="elementor-element elementor-element-40634e1 elementor-widget elementor-widget-html" data-id="40634e1" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8721136696893226"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8721136696893226"
+     data-ad-slot="6178853478"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://www.jamfinity.com/mysql-select/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MySQL Insert</title>
+		<link>https://www.jamfinity.com/mysql-insert/</link>
+					<comments>https://www.jamfinity.com/mysql-insert/#respond</comments>
+		
+		<dc:creator><![CDATA[Jamil]]></dc:creator>
+		<pubDate>Sun, 23 May 2021 18:58:13 +0000</pubDate>
+				<category><![CDATA[Basic MySQL]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[Basic SQL]]></category>
+		<category><![CDATA[Coding Language]]></category>
+		<category><![CDATA[MySQL Coding Lanuage]]></category>
+		<category><![CDATA[MySQL Tutorial]]></category>
+		<guid isPermaLink="false">https://www.jamfinity.com/?p=989</guid>
+
+					<description><![CDATA[INSERT The INSERT statement inserts a new row into the table. INSERT STATEMENT INSERT INTO jamfinity (id, name, age) VALUES (1, 'Jamil Jahangir', 22); We]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="989" class="elementor elementor-989" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-0d64880 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0d64880" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5a6d95f elementor-hidden-tablet elementor-hidden-phone" data-id="5a6d95f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f8ece99 elementor-grid-1 elementor-posts--thumbnail-none elementor-posts--align-left elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="f8ece99" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:14,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-968 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-coding-language category-mysql category-tutorial-front-pages tag-basic-mysql tag-coding-language tag-mysql">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/basic-mysql/" target="_blank">
+				Basic MySQL			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-1040 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-introduction/" target="_blank">
+				MySQL Introduction			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-987 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-create/" target="_blank">
+				MySQL Create			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-989 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-insert/" target="_blank">
+				MySQL Insert			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-991 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-select/" target="_blank">
+				MySQL Select			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-993 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-alter/" target="_blank">
+				MySQL Alter			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-995 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-update/" target="_blank">
+				MySQL Update			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-997 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-delete/" target="_blank">
+				MySQL Delete			</a>
+		</h6>
+				</div>
+				</article>
+				</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-562ffe6" data-id="562ffe6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b5e2aaf elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b5e2aaf" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-code"></i>						</span>
+										<span class="elementor-icon-list-text">MySQL Insert</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a64df52 elementor-post-navigation-borders-yes elementor-widget elementor-widget-post-navigation" data-id="a64df52" data-element_type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-create/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span><span class="post-navigation__prev--title">MySQL Create</span></span></a>			</div>
+							<div class="elementor-post-navigation__separator-wrapper">
+					<div class="elementor-post-navigation__separator"></div>
+				</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-select/" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">Next</span><span class="post-navigation__next--title">MySQL Select</span></span><span class="post-navigation__arrow-wrapper post-navigation__arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="elementor-screen-only">Next</span></span></a>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-180e243 elementor-widget elementor-widget-text-editor" data-id="180e243" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><code>INSERT</code> </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-1d8ac87 elementor-widget elementor-widget-text-editor" data-id="1d8ac87" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								The <code>INSERT</CODE> statement inserts a new row into the table.						</div>
+				</div>
+				<div class="elementor-element elementor-element-e85a447 elementor-widget elementor-widget-heading" data-id="e85a447" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">INSERT STATEMENT</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bff5c9c elementor-widget elementor-widget-code-highlight" data-id="bff5c9c" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-okaidia copy-to-clipboard ">
+			<pre data-line="" class="highlight-height language-sql line-numbers">
+				<code readonly="true" class="language-sql">
+					<xmp>INSERT INTO jamfinity (id, name, age) 
+VALUES (1, 'Jamil Jahangir', 22);
+</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-13231bc elementor-widget elementor-widget-text-editor" data-id="13231bc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>We create our table in our previous post:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-ed1da65 elementor-widget elementor-widget-button" data-id="ed1da65" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://www.jamfinity.com/mysql-create" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">MySQL Create</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f41a710 elementor-widget elementor-widget-text-editor" data-id="f41a710" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								Let&#8217;s break down the statement:
+<ul>
+ 	<li>If we want to insert a new row into our table, we have use the code &#8220;<code>INSERT INTO</code>&#8220;</li>
+ 	<li>The code <code>INSERT INTO</code> is  followed by the table name. Here, the name of the table is <strong>jamfinity</strong></li>
+ 	<li>The next set of clauses are very important. We write the values of the rows in the format &#8211; <code>VALUES (id, name, age);</code></li>
+ 	<li>We have inserted<code>id</code> value of <code>1</code> of data type &#8211; <code>INTEGER</code> in the <codeid</code> column</li>
+ 	<li>Jamil Jahangir added to  <code>name</code> column of data type &#8211; <code>text</code></li>
+ 	<li>22 added to <code>age</code>column of data type &#8211; <code>INTEGER</code></li>
+</ul>
+&nbsp;						</div>
+				</div>
+				<div class="elementor-element elementor-element-f560ac7 elementor-widget elementor-widget-text-editor" data-id="f560ac7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								Important points:
+<ul>
+ 	<li>Make sure to write <code>INTO</code> after <code>INSERT</code></li>
+ 	<li>End the statement with a Semicolon. </li>
+</ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3122d5e elementor-widget elementor-widget-html" data-id="3122d5e" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8721136696893226"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8721136696893226"
+     data-ad-slot="6178853478"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://www.jamfinity.com/mysql-insert/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MySQL Create</title>
+		<link>https://www.jamfinity.com/mysql-create/</link>
+					<comments>https://www.jamfinity.com/mysql-create/#respond</comments>
+		
+		<dc:creator><![CDATA[Jamil]]></dc:creator>
+		<pubDate>Sun, 23 May 2021 18:57:57 +0000</pubDate>
+				<category><![CDATA[Basic MySQL]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[Basic SQL]]></category>
+		<category><![CDATA[Coding Language]]></category>
+		<category><![CDATA[MySQL Coding Lanuage]]></category>
+		<category><![CDATA[MySQL Tutorial]]></category>
+		<guid isPermaLink="false">https://www.jamfinity.com/?p=987</guid>
+
+					<description><![CDATA[Statement/ Command We communicate with databases through Statements. A Statement are texts that are perceived as a valid command. It always ends with a semicolon]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="987" class="elementor elementor-987" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-0d64880 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="0d64880" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5a6d95f elementor-hidden-tablet elementor-hidden-phone" data-id="5a6d95f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3f13f50 elementor-grid-1 elementor-posts--thumbnail-none elementor-posts--align-left elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="3f13f50" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:14,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-968 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-coding-language category-mysql category-tutorial-front-pages tag-basic-mysql tag-coding-language tag-mysql">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/basic-mysql/" target="_blank">
+				Basic MySQL			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-1040 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-introduction/" target="_blank">
+				MySQL Introduction			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-987 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-create/" target="_blank">
+				MySQL Create			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-989 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-insert/" target="_blank">
+				MySQL Insert			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-991 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-select/" target="_blank">
+				MySQL Select			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-993 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-alter/" target="_blank">
+				MySQL Alter			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-995 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-update/" target="_blank">
+				MySQL Update			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-997 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-delete/" target="_blank">
+				MySQL Delete			</a>
+		</h6>
+				</div>
+				</article>
+				</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-562ffe6" data-id="562ffe6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-48b3697 elementor-post-navigation-borders-yes elementor-widget elementor-widget-post-navigation" data-id="48b3697" data-element_type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-introduction/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span><span class="post-navigation__prev--title">MySQL Introduction</span></span></a>			</div>
+							<div class="elementor-post-navigation__separator-wrapper">
+					<div class="elementor-post-navigation__separator"></div>
+				</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-insert/" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">Next</span><span class="post-navigation__next--title">MySQL Insert</span></span><span class="post-navigation__arrow-wrapper post-navigation__arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="elementor-screen-only">Next</span></span></a>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-31b008a elementor-widget elementor-widget-heading" data-id="31b008a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Statement/ Command</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-180e243 elementor-widget elementor-widget-text-editor" data-id="180e243" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								We communicate with databases through Statements. A Statement are texts that are perceived as a valid command.
+<br><br>
+It always ends with a <strong>semicolon ;</strong> 						</div>
+				</div>
+				<div class="elementor-element elementor-element-e85a447 elementor-widget elementor-widget-heading" data-id="e85a447" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Creating a  table</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f560ac7 elementor-widget elementor-widget-text-editor" data-id="f560ac7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>The<code>CREATE</code> command is used to create a table in the database. </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a3bce3d elementor-widget elementor-widget-code-highlight" data-id="a3bce3d" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-okaidia copy-to-clipboard ">
+			<pre data-line="" class="highlight-height language-sql ">
+				<code readonly="true" class="language-sql">
+					<xmp>CREATE TABLE </xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9c890b4 elementor-widget elementor-widget-text-editor" data-id="9c890b4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								Here, <code> CREATE TABLE </code> is a clause. These clauses are usually written in all capital letters. 						</div>
+				</div>
+				<div class="elementor-element elementor-element-6995a4f elementor-widget elementor-widget-text-editor" data-id="6995a4f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>The basic statement used to create a table is:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-70714ef elementor-widget elementor-widget-code-highlight" data-id="70714ef" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-okaidia copy-to-clipboard ">
+			<pre data-line="" class="highlight-height language-sql ">
+				<code readonly="true" class="language-sql">
+					<xmp>CREATE TABLE table_name (
+    id INTEGER,
+    name TEXT,
+    age INTEGER
+);</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a27fa19 elementor-widget elementor-widget-text-editor" data-id="a27fa19" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								Let&#8217;s break down our statement:
+<ul>
+ 	<li><code>table_name</code> refers to the name of the table. Table names are written in a single word. You can use underscore ( _ ) instead of space if you want to include more than one word.</li>
+ 	<li>The rest of the statement follows the pattern: (column_1 data_type, column_2 data_type, column_3 data_type). So our column number 1 is <code>id</code> with the data type &#8211; <code>INTEGER</code>. Basically, it stores the values of data type <code>INTEGER</code>. The rest also follows column name with its associated data type.</li>
+ 	<li><em>Statements end with a semicolon</em></li>
+</ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c9808ec elementor-widget elementor-widget-heading" data-id="c9808ec" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Example</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-cdfa585 elementor-widget elementor-widget-code-highlight" data-id="cdfa585" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-okaidia copy-to-clipboard ">
+			<pre data-line="" class="highlight-height language-sql ">
+				<code readonly="true" class="language-sql">
+					<xmp>CREATE TABLE jamfinity (
+    id INTEGER,
+    name TEXT,
+    age INTEGER
+);</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f5ad47d elementor-widget elementor-widget-html" data-id="f5ad47d" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8721136696893226"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8721136696893226"
+     data-ad-slot="6178853478"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://www.jamfinity.com/mysql-create/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MySQL Introduction</title>
+		<link>https://www.jamfinity.com/mysql-introduction/</link>
+					<comments>https://www.jamfinity.com/mysql-introduction/#respond</comments>
+		
+		<dc:creator><![CDATA[Jamil]]></dc:creator>
+		<pubDate>Sun, 23 May 2021 18:57:31 +0000</pubDate>
+				<category><![CDATA[Basic MySQL]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[Basic SQL]]></category>
+		<category><![CDATA[Coding Language]]></category>
+		<category><![CDATA[MySQL Coding Lanuage]]></category>
+		<category><![CDATA[MySQL Tutorial]]></category>
+		<guid isPermaLink="false">https://www.jamfinity.com/?p=1040</guid>
+
+					<description><![CDATA[Introduction What is MySQL? MySQL is an open-source relational database management system. Its name is a combination of &#8220;My&#8221;, the name of co-founder Michael Widenius&#8217;s]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1040" class="elementor elementor-1040" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-5fb2a39 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="5fb2a39" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-31155ae elementor-hidden-tablet elementor-hidden-phone" data-id="31155ae" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-21f9be3 elementor-grid-1 elementor-posts--thumbnail-none elementor-posts--align-left elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="21f9be3" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:14,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-968 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-coding-language category-mysql category-tutorial-front-pages tag-basic-mysql tag-coding-language tag-mysql">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/basic-mysql/" target="_blank">
+				Basic MySQL			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-1040 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-introduction/" target="_blank">
+				MySQL Introduction			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-987 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-create/" target="_blank">
+				MySQL Create			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-989 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-insert/" target="_blank">
+				MySQL Insert			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-991 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-select/" target="_blank">
+				MySQL Select			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-993 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-alter/" target="_blank">
+				MySQL Alter			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-995 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-update/" target="_blank">
+				MySQL Update			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-997 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-delete/" target="_blank">
+				MySQL Delete			</a>
+		</h6>
+				</div>
+				</article>
+				</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7e4a5b8" data-id="7e4a5b8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9913023 elementor-post-navigation-borders-yes elementor-widget elementor-widget-post-navigation" data-id="9913023" data-element_type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/basic-mysql/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span><span class="post-navigation__prev--title">Basic MySQL</span></span></a>			</div>
+							<div class="elementor-post-navigation__separator-wrapper">
+					<div class="elementor-post-navigation__separator"></div>
+				</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-create/" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">Next</span><span class="post-navigation__next--title">MySQL Create</span></span><span class="post-navigation__arrow-wrapper post-navigation__arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="elementor-screen-only">Next</span></span></a>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7cb6ba1 elementor-widget elementor-widget-heading" data-id="7cb6ba1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Introduction</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-22b3410 elementor-widget elementor-widget-heading" data-id="22b3410" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">What is <strong>MySQL?</strong></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a2d6094 elementor-widget elementor-widget-text-editor" data-id="a2d6094" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>MySQL is an open-source relational database management system. Its name is a combination of &#8220;My&#8221;, the name of co-founder Michael Widenius&#8217;s daughter, and &#8220;SQL&#8221;, the abbreviation for Structured Query Language. (Source: Wikipedia)</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0236926 elementor-widget elementor-widget-text-editor" data-id="0236926" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>With the this programming language, you can manage data stored in relational databases</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c370924 elementor-widget elementor-widget-heading" data-id="c370924" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">What is  <strong>Relational Database?</strong></h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-10b127b elementor-widget elementor-widget-text-editor" data-id="10b127b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>A <em>relational database</em> is a database that organizes information into one or more tables.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2b0c47a elementor-widget elementor-widget-heading" data-id="2b0c47a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">What is <strong>table?</strong></h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-67caa96 elementor-widget elementor-widget-text-editor" data-id="67caa96" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>A <em>table</em> is a collection of data organized into rows and columns. Tables are sometimes referred to as <em>relations</em>.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0ad3495 elementor-widget elementor-widget-text-editor" data-id="0ad3495" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Here, we have a table called &#8220;Customer&#8221;.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0da9435 elementor-widget elementor-widget-image" data-id="0da9435" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="624" height="139" src="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-1.png" class="attachment-large size-large" alt="" srcset="https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-1.png 624w, https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-1-300x67.png 300w, https://www.jamfinity.com/wp-content/uploads/2021/05/example-2-mysql-1-600x134.png 600w" sizes="(max-width: 624px) 100vw, 624px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-5f16389 elementor-widget elementor-widget-heading" data-id="5f16389" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Column</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e5a04b8 elementor-widget elementor-widget-text-editor" data-id="e5a04b8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Column is the type of the data we will insert into our table. in our Customer table, the columns are <code>id, balance and address</code> are our column</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-499d699 elementor-widget elementor-widget-heading" data-id="499d699" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Rows</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a7e7cfd elementor-widget elementor-widget-text-editor" data-id="a7e7cfd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								A <em>row</em> is a single record in a table. The first row in the Customer table has:
+<ul>
+ 	<li><code>Name: Alim</code></li>
+<li><code>OD: 1001</code></li>
+<li><code>Balance: $50,000</code></li>
+<li><code>Address: Dhaka</code></li>
+</ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0091c7b elementor-widget elementor-widget-heading" data-id="0091c7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">What are the <strong>types</strong> of data we store in our database?</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-68bf3f3 elementor-widget elementor-widget-code-highlight" data-id="68bf3f3" data-element_type="widget" data-widget_type="code-highlight.default">
+				<div class="elementor-widget-container">
+					<div class="prismjs-okaidia copy-to-clipboard word-wrap">
+			<pre data-line="" class="highlight-height language-sql line-numbers">
+				<code readonly="true" class="language-sql">
+					<xmp>•	INTEGER, a positive or negative whole number
+•	TEXT, a text string
+•	DATE, the date formatted as YYYY-MM-DD
+•	REAL, a decimal value
+</xmp>
+				</code>
+			</pre>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ed78e93 elementor-widget elementor-widget-html" data-id="ed78e93" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8721136696893226"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8721136696893226"
+     data-ad-slot="6178853478"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://www.jamfinity.com/mysql-introduction/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Basic MySQL</title>
+		<link>https://www.jamfinity.com/basic-mysql/</link>
+					<comments>https://www.jamfinity.com/basic-mysql/#comments</comments>
+		
+		<dc:creator><![CDATA[Jamil]]></dc:creator>
+		<pubDate>Sun, 23 May 2021 18:45:58 +0000</pubDate>
+				<category><![CDATA[Basic MySQL]]></category>
+		<category><![CDATA[Coding Language]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[Tutorial Front Pages]]></category>
+		<guid isPermaLink="false">https://www.jamfinity.com/?p=968</guid>
+
+					<description><![CDATA[Basic MySQL is a short Tutorial Course Designed for Students who want to learn about MySQL codes and their uses in a short period of time]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="968" class="elementor elementor-968" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-a10e91b elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="a10e91b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d67331c elementor-hidden-tablet elementor-hidden-phone" data-id="d67331c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c8bd7b2 elementor-grid-1 elementor-posts--thumbnail-none elementor-posts--align-left elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="c8bd7b2" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:14,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-968 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-coding-language category-mysql category-tutorial-front-pages tag-basic-mysql tag-coding-language tag-mysql">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/basic-mysql/" target="_blank">
+				Basic MySQL			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-1040 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-introduction/" target="_blank">
+				MySQL Introduction			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-987 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-create/" target="_blank">
+				MySQL Create			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-989 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-insert/" target="_blank">
+				MySQL Insert			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-991 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-select/" target="_blank">
+				MySQL Select			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-993 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-alter/" target="_blank">
+				MySQL Alter			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-995 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-update/" target="_blank">
+				MySQL Update			</a>
+		</h6>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-997 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-mysql category-mysql tag-basic-mysql tag-basic-sql tag-coding-language tag-mysql tag-mysql-coding-lanuage tag-mysql-tutorial">
+				<div class="elementor-post__text">
+				<h6 class="elementor-post__title">
+			<a href="https://www.jamfinity.com/mysql-delete/" target="_blank">
+				MySQL Delete			</a>
+		</h6>
+				</div>
+				</article>
+				</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8ca4cfa" data-id="8ca4cfa" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-71d6664 elementor-post-navigation-borders-yes elementor-widget elementor-widget-post-navigation" data-id="71d6664" data-element_type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/learn-to-use-mysql-with-microsoft-database/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span><span class="post-navigation__prev--title">Learn to use MySQL using Microsoft Access</span></span></a>			</div>
+							<div class="elementor-post-navigation__separator-wrapper">
+					<div class="elementor-post-navigation__separator"></div>
+				</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="https://www.jamfinity.com/mysql-introduction/" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">Next</span><span class="post-navigation__next--title">MySQL Introduction</span></span><span class="post-navigation__arrow-wrapper post-navigation__arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="elementor-screen-only">Next</span></span></a>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6c5b253 elementor-widget elementor-widget-heading" data-id="6c5b253" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Welcome to Basic MySQL by Jamfinity!</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f21e22c elementor-widget elementor-widget-text-editor" data-id="f21e22c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Basic MySQL is a short Tutorial Course Designed for Students who wants to learn about MySQL codes and uses in a short period of time.</p><p>We will cover the most common codes of MySQL.</p><p>By the end of this tutorial course, you will be familiar with the common MySQL query codes with it&#8217;s uses and application. </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-71178c0 elementor-widget elementor-widget-heading" data-id="71178c0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">We have a tutorial with Microsoft Access!</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bec5ad6 elementor-widget elementor-widget-text-editor" data-id="bec5ad6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>We also have a instructional tutorial for people who want to use MySQL with Microsoft Access.</p><p>Click the link below to learn how to use MySQL with Microsoft Access.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-004c4b9 elementor-widget elementor-widget-eael-creative-button" data-id="004c4b9" data-element_type="widget" data-widget_type="eael-creative-button.default">
+				<div class="elementor-widget-container">
+			        <div class="eael-creative-button-wrapper">
+
+            <a class="eael-creative-button eael-creative-button--default" href="https://www.jamfinity.com/learn-to-use-mysql-with-microsoft-database" data-text="Go!">
+
+                <div class="creative-button-inner">
+
+                                            <span class="eael-creative-button-icon-left"></span>                    
+                    <span class="cretive-button-text">Using MySQL with Microsoft Access</span>
+
+                                    </div>
+            </a>
+        </div>
+		</div>
+				</div>
+				<div class="elementor-element elementor-element-5a5d9c9 elementor-widget elementor-widget-html" data-id="5a5d9c9" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8721136696893226"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-ef+6k-30-ac+ty"
+     data-ad-client="ca-pub-8721136696893226"
+     data-ad-slot="8678584801"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://www.jamfinity.com/basic-mysql/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
